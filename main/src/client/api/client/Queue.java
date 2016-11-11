@@ -12,7 +12,8 @@ public class Queue {
     public Queue(Object raw) {
         this.raw = raw;
     }
-    public CacheNode cacheNode() {
-        return new CacheNode(Reflection.value("gq", "k", raw));
+
+    public CacheNode getNacheNode() {
+        return new CacheNode(Reflection.value("Queue#getCacheNode", raw));
     }
 }

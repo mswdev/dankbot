@@ -22,11 +22,11 @@ public class PlayerDefinition {
     }
 
     public int[] getBodyColors() {
-        return (int[]) Reflection.value("PlayerDefinition#", raw);
+        return (int[]) Reflection.value("PlayerDefinition#getBodyColors", raw);
     }
 
     public boolean isFemale() {
-        return (boolean) Reflection.value("PlayerDefinition#", raw);
+        return (boolean) Reflection.value("PlayerDefinition#isFemale", raw);
     }
 
     /*public int getNPCId() {

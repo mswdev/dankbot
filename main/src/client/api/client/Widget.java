@@ -14,15 +14,15 @@ public class Widget {
     }
 
     public int getAbsoluteX() {
-        return (int) Reflection.value("fw", "o") * 586897191;
+        return (int) Reflection.value("Widget#getAbsoluteX");
     }
 
     public int getAbsoluteY() {
-        return (int) Reflection.value("fw", "aq") * -259877851;
+        return (int) Reflection.value("Widget#");
     }
 
     public int getBoundsIndex() {
-        return (int) Reflection.value("fw", "ep") * -1763898913;
+        return (int) Reflection.value("Widget#");
     }
 
     public Widget[] getChildren() {
@@ -30,7 +30,7 @@ public class Widget {
     }
 
     public int getHeight() {
-        return (int) Reflection.value("fw", "av") * 967899867;
+        return (int) Reflection.value("fw", "av");
     }
 
     public boolean isHidden() {
@@ -38,11 +38,11 @@ public class Widget {
     }
 
     public int getId() {
-        return (int) Reflection.value("fw", "g") * -241295795;
+        return (int) Reflection.value("fw", "g");
     }
 
     public int getItemId() {
-        return (int) Reflection.value("fw", "ej") * -2041279403;
+        return (int) Reflection.value("fw", "ej");
     }
 
     public int[] getItemIds() {
@@ -54,7 +54,7 @@ public class Widget {
     }
 
     public int getItemQuantity() {
-        return (int) Reflection.value("fw", "ed") * 1744754321;
+        return (int) Reflection.value("fw", "ed");
     }
 
     public String getName() {
@@ -66,15 +66,15 @@ public class Widget {
     }
 
     public int getParentId() {
-        return (int) Reflection.value("fw", "aj") * -363661115;
+        return (int) Reflection.value("fw", "aj");
     }
 
     public int getRelativeX() {
-        return (int) Reflection.value("fw", "ay") * 231741105;
+        return (int) Reflection.value("fw", "ay");
     }
 
     public int getRelativeY() {
-        return (int) Reflection.value("fw", "ag") * -976102605;
+        return (int) Reflection.value("fw", "ag");
     }
 
     public String getText() {
@@ -82,10 +82,10 @@ public class Widget {
     }
 
     public int getTextureId() {
-        return (int) Reflection.value("fw", "ae") * -1321943861;
+        return (int) Reflection.value("fw", "ae");
     }
 
     public int getWidth() {
-        return (int) Reflection.value("fw", "al") * 571183135;
+        return (int) Reflection.value("fw", "al");
     }
 }
