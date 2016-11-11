@@ -87,58 +87,58 @@ public class Client {
     }
 
     public static LinkedList getGroundItems() {
-        return (LinkedList) Reflection.value("Client#getGroundItems", null);
+        return (LinkedList) Reflection.value("Client#getGroundItems");
     }
 
     public static NPC[] getNPCs() {
-        return Stream.of(Reflection.value("Client#getNPCs", null)).map(NPC::new).toArray(NPC[]::new);
+        return Stream.of(Reflection.value("Client#getNPCs")).map(NPC::new).toArray(NPC[]::new);
     }
 
     public static int getViewPortScale() {
-        return (int) Reflection.value("Client#getViewPortScale", null);
+        return (int) Reflection.value("Client#getViewPortScale");
     }
 
     public static int getViewPortHeight() {
-        return (int) Reflection.value("Client#getViewPortHeight", null);
+        return (int) Reflection.value("Client#getViewPortHeight");
     }
 
     public static int getViewPortWidth() {
-        return (int) Reflection.value("Client#getViewPortWidth", null);
+        return (int) Reflection.value("Client#getViewPortWidth");
     }
 
     public static int[][][] getTileHeights() {
-        return (int[][][]) Reflection.value("Client#getTileHeights", null);
+        return (int[][][]) Reflection.value("Client#getTileHeights");
     }
 
     public static byte[][][] getTileSettings() {
-        return (byte[][][]) Reflection.value("Client#getTileSettings", null);
+        return (byte[][][]) Reflection.value("Client#getTileSettings");
     }
 
     public static int getMapAngle() {
-        return (int) Reflection.value("Client#getMapAngle", null);
+        return (int) Reflection.value("Client#getMapAngle");
     }
 
     public static int getMapOffset() {
-        return (int) Reflection.value("Client#getMapOffset", null);
+        return (int) Reflection.value("Client#getMapOffset");
     }
 
     public static int getMapScale() {
-        return (int) Reflection.value("Client#getMapScale", null);
+        return (int) Reflection.value("Client#getMapScale");
     }
 
     public static boolean isResizable() {
-        return (boolean) Reflection.value("Client#isResizable", null);
+        return (boolean) Reflection.value("Client#isResizable");
     }
 
     public static int getAppletWidth() {
-        return (int) Reflection.value("Client#getAppletWidth", null);
+        return (int) Reflection.value("Client#getAppletWidth");
     }
 
     public static int getAppletHeight() {
-        return (int) Reflection.value("Client#", null);
+        return (int) Reflection.value("Client#getAppletHeight");
     }
 
     public static Cache getPlayerModelCache() {
-        return new Cache(Reflection.value("gs", "b", null));
+        return new Cache(Reflection.value("Client#getPlayerModelCache"));
     }
 }

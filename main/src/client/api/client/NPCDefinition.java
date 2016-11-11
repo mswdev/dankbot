@@ -14,7 +14,7 @@ public class NPCDefinition {
     }
 
     public int getId() {
-        return (int) Reflection.value("aw", "v", raw) * -1315819149;
+        return (int) Reflection.value("NPCDefinition#", raw) * -1315819149;
     }
 
     public String getName() {

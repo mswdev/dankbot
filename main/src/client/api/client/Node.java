@@ -14,14 +14,14 @@ public class Node {
     }
 
     public long getId() {
-        return (long) Reflection.value("hk", "ez", raw);
+        return (long) Reflection.value("Node#getId", raw);
     }
 
     public Object getNext() {
-        return Reflection.value("hk", "es", raw);
+        return Reflection.value("Node#getNext", raw);
     }
 
     public Object getPrevious() {
-        return Reflection.value("hk", "eb", raw);
+        return Reflection.value("Node#getPrevious", raw);
     }
 }

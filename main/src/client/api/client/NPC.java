@@ -15,7 +15,7 @@ public class NPC extends Character {
     }
 
     public NPCDefinition getDefinition() {
-        return new NPCDefinition(Reflection.value("ak", "k"));
+        return new NPCDefinition(Reflection.value("NPC#getDefinition"));
     }
 
 }
