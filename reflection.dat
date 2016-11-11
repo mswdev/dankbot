@@ -1,0 +1,339 @@
+Character#getAnimation ao bq -1118550657
+Character#getAnimationDelay ao bj 329591327
+Character#getCombatTime ao bi -46636307
+Character#getFrameOne ao bs 321083343
+Character#getFrameTwo ao bx 1631609427
+Character#getHealthBars ao bv
+Character#getHitCycles ao ae
+Character#getHitDamages ao az
+Character#getHitTypes ao av
+Character#getInteractingIndex ao bi -46636307
+Character#getX ao as 1509800963
+Character#getY ao ad 765189067
+Character#getMessage ao ax
+Character#getOrientation ao cj 1688415547
+Character#getQueueSize ao cc -1124014797
+Character#getQueueTraversed ao cu
+Character#getQueueX ao cs
+Character#getQueueY ao ch
+Character#getRuntimeAnimation ao bb -1877948175
+Character#getStandAnimation ao an -1496289775
+AnimatedObject#getAnimationDelay p m 83543777
+AnimatedObject#getAnimationFrame p l 1150026335
+AnimatedObject#getClickType p h -642877905
+AnimatedObject#getId p i 660464737
+AnimatedObject#getOrientation p e -238191667
+AnimatedObject#getPlane p g 1058606381
+AnimatedObject#getSequence p d
+AnimatedObject#getX p n 391856953
+AnimatedObject#getY p u 385968191
+BoundaryObject#getBackUpOrientation cr n -1700911865
+BoundaryObject#getBackUpRenderable cr d
+BoundaryObject#getFlags cr m -868258919
+BoundaryObject#getId cr l 2138696207
+BoundaryObject#getOrientation cr g 595234049
+BoundaryObject#getPlane cr i -2009917373
+BoundaryObject#getRenderable cr u
+BoundaryObject#getX cr h 879769795
+BoundaryObject#getY cr e 679745615
+Cache#getCacheNode gb i
+Cache#getHashTable gb g
+Cache#getQueue gb n
+Cache#getRemaining gb h
+Cache#getSize gb e
+CacheNode#getNext gw cx
+CacheNode#getPrevious gw cr
+Canvas#getComponent ee i
+ClanMember#getFormattedName a h
+ClanMember#getName a i
+ClanMember#getRank a g
+ClanMember#getWorld a e 1237518575
+ClassData#getByteArray hb l
+ClassData#getFields hb n
+ClassData#getMethods hb d
+Client#getBaseX gi di -2057817099
+Client#getBaseY cz db 983882093
+Client#getCameraPitch f fv -551291999
+Client#getCameraX af fy -1007100541
+Client#getCameraY au fa -1719659819
+Client#getCameraYaw fc fw 1142539231
+Client#getCameraZ ad fb -613151895
+Client#getCanvas ff qk
+Client#getClanMembers es mh
+Client#getClanMembersSize ax mv 1791176353
+Client#getClanName client mo
+Client#getClanOwner client mi
+Client#getClickModifier ey m -1
+Client#getCollisionMaps client w
+Client#getCrosshairColor client gx 1245590151
+Client#getCurrentWorld client g -808946005
+Client#getDestinationX client mn -1273716173
+Client#getDestinationY client mw -622192023
+Client#getExperience client ha
+Client#getFriends client ou
+Client#getFriendsSize client og 981303389
+Client#getGameCycle client o -1930923593
+Client#getGameSettings fd e
+Client#getGameSocket ai cu
+Client#getGameState client z -439683053
+Client#getGrandExchangeItems client ps
+Client#getGroundItemList client hl
+Client#getGroundItemModelCache by m
+Client#getHost az bw
+Client#getIdleTime ey h -1
+Client#getIsSpellSelected client iy
+Client#getIsWorldSelectorOpen ag av
+Client#getItemTable c i
+Client#getKeyboard ev i
+Client#getLevel client hj
+Client#getNPCs client cj
+Client#getLocalPlayer ek hx
+Client#getLoginState ag al -653651481
+Client#getLowestAvailableCameraPitch client fs -1858875995
+Client#getMapAngle client fj 106750717
+Client#getMapOffset client en 1459277127
+Client#getMapScale client ed -2059263161
+Client#getMenuActionNames client ib
+Client#getMenuActions client ih
+Client#getMenuCount client hp 2039098159
+Client#getMenuHeight gt hh 837168405
+Client#getMenuOpcodes client ig
+Client#getMenuOptions client ib
+Client#getMenuVariable client ie
+Client#getMenuVisible client ht
+Client#getMenuWidth af hv -698810277
+Client#getMenuX es hz -2088980825
+Client#getMenuXInteractions client hw
+Client#getMenuY eq he -32327265
+Client#getMenuYInteractions client hr
+Client#getMessage0 ag ar
+Client#getMessage1 ag aw
+Client#getMessage2 ag ah
+Client#getMessageContainer s i
+Client#getMouse ey i
+Client#getNpcCompositeCache ac e
+Client#getNpcModelCache ac g
+Client#getObjectCompositeCache ai g
+Client#getObjectModelCache ai d
+Client#getPassword ag ax
+Client#getPlane fx gr -702078775
+Client#getPlayerIndex client gm -585087771
+Client#getPlayerModelCache gh s
+Client#getPlayers client gf
+Client#getProjectiles client hc
+Client#getRealLevel client hq
+Client#getRegion dl dc
+Client#getSelectedItemId u in -808200803
+Client#getSelectedItemIndex t io -104463721
+Client#getSelectedItemName client it
+Client#getSelectedSpellName client ii
+Client#getSelectionState client im -772182347
+Client#getSettings fd e
+Client#getSettingsObject e pw
+Client#getTileHeights u i
+Client#getTileSettings u h
+Client#getUsername ag ao
+Client#getWidgetBoundsX client lu
+Client#getWidgetBoundsY client le
+Client#getWidgetHeights client ld
+Client#getWidgetModelCache fe l
+Client#getWidgetNodes client ij
+Client#getWidgetWidths client lm
+Client#getWidgets fe i
+Client#getWorlds ce n
+Client#getViewPortScale client oe 1778564539
+Client#getViewPortHeight client or 711889975
+Client#getViewPortWidth client op 1026734741
+Client#isResizable client lg
+Client#getAppletHeight bl qq 1829424793
+Client#getAppletWidth bn qu -1578633151
+CollisionMap#getFlags da aw
+CollisionMap#getHeight da ar 1157088875
+CollisionMap#getOffsetX da ag 1078280019
+CollisionMap#getOffsetY da al 1858463967
+CollisionMap#getWidth da au -1997881481
+FileAccessor#getAccessor hi i
+FileAccessor#getPosition hi e -2480600433581834851L
+FileBuffer#getAccessor hp i
+FloorObject#getId cg n 1459466075
+FloorObject#getPlane cg i 510823575
+FloorObject#getRenderable cg g
+FloorObject#getX cg h 82695789
+FloorObject#getY cg e 68790567
+Friend#getName x i
+Friend#getPreviousName x h
+Friend#getWorld x e 923511617
+GameObject#getFlags cy v 1468611489
+GameObject#getHeight cy h -2057954863
+GameObject#getId cy p 1242855477
+GameObject#getOffsetX cy l -894773671
+GameObject#getOffsetY cy j -1194065509
+GameObject#getOrientation cy u 1391435219
+GameObject#getPlane cy i -1125865599
+GameObject#getRelativeX cy m 450121641
+GameObject#getRelativeY cy d -793414107
+GameObject#getRenderable cy n
+GameObject#getX cy e -1268436161
+GameObject#getY cy g 968404233
+GameShell#getCrashed em pm
+GrandExchangeItem#getAmount ha g -563622925
+GrandExchangeItem#getByte ha i
+GrandExchangeItem#getId ha h 291150401
+GrandExchangeItem#getPrice ha e -1613102997
+GraphicsProducer#getComponent ch i
+HashTable#getBuckets gg h
+HashTable#getCurrent gg g
+HashTable#getHead gg e
+HashTable#getIndex gg n
+HashTable#getSize gg i
+HealthBar#getComposite am e
+HealthBar#getData am g
+HealthBarComposite#getMaxHealth av r -438292841
+HealthBarData#getCurrentHealth q h 264985437
+ImageProducer#getColorModel ca i
+ImageProducer#getConsumer ca h
+Item#getId ak i 395215635
+Item#getStackSize ak h -1368099579
+ItemComposite#getGroundActions by as
+ItemComposite#getId by s 504704291
+ItemComposite#getMember by am
+ItemComposite#getName by v
+ItemComposite#getWidgetActions by ad
+ItemLayer#getBottom ck g
+ItemLayer#getFlag ck d -589550963
+ItemLayer#getHeight ck l 142183241
+ItemLayer#getMiddle ck n
+ItemLayer#getPlane ck i -2068871161
+ItemLayer#getTop ck u
+ItemLayer#getX ck h -2118354301
+ItemLayer#getY ck e 1506709547
+ItemNode#getIds c h
+ItemNode#getStackSizes c e
+Iterable#getNode gr h
+LinkedList#getCurrent gz h
+LinkedList#getTail gz i
+MessageChannel#getMessageIndex af e 269778135
+MessageChannel#getMessages af h
+MessageNode#getClan aw n
+MessageNode#getSender aw g
+MessageNode#getText aw u
+MessageNode#getTime aw h -1084431559
+MessageNode#getType aw e -378850057
+Model#getIndicesLength do n
+Model#getXIndices do j
+Model#getYIndices do y
+Model#getZIndices do s
+Model#getVectorSkin do t
+Model#getVerticesLength do m
+Model#getXVertices do u
+Model#getYVertices do d
+Model#getZVertices do l
+MouseTracker#getLength v e 916046417
+MouseTracker#getLock v h
+MouseTracker#getTracking v i
+MouseTracker#getXCoordinates v g
+MouseTracker#getYCoordinates v n
+Node#getId hk em
+Node#getNext hk et
+Node#getPrevious hk ew
+NPC#getDefinition ar i
+NPCDefinition#getActions ac q
+NPCDefinition#getId ac n 286422271
+NPCDefinition#getName ac u
+ObjectDefinition#getActions ai ad
+ObjectDefinition#getName ai s
+Packet#getCipher dh m
+Player#getDefinition e h
+Player#getLevel e d 1996679059
+Player#getModel e r
+Player#getName e i
+Player#isVisible e z
+PlayerDefinition#getAnimatedModelId gh u 1364456254774596847L
+PlayerDefinition#getAppearance gh i
+PlayerDefinition#getBodyColors gh h
+PlayerDefinition#isFemale gh e
+PlayerDefinition#getNPCId gh g 1840714693
+PlayerDefinition#getStaticModelId gh u 1364456254774596847L
+Projectile#getHeightOffset d z
+Projectile#getMoving d s
+Projectile#getRotationX d q -1317467379
+Projectile#getRotationY d o -668893331
+Projectile#getSpeedX d c
+Projectile#getSpeedY d w
+Projectile#getSpeedZ d k
+Projectile#getX d p
+Projectile#getY d v
+Queue#getCacheNode gm i
+Region#getFocusedX cx au
+Region#getFocusedY cx ar
+Region#getGameObjects cx m
+Region#getTiles cx u
+Region#getVisibilityTilesMap cx bi
+Region#getVisibleTiles cx by
+Renderable#getModelHeight cp cp 747137507
+SettingsClass#getLoginMusicEnabled m g
+SettingsClass#getResizableMode m n -1725642273
+SettingsClass#getRoofsEnabled m e
+Socket#getBuffer es d
+Socket#getInputStream es h
+Socket#getOutputStream es i
+Socket#getSocket es e
+Stream#getOffset dn h -1529111311
+Stream#getPayload dn i
+Tile#getBoundary di d
+Tile#getFloor di m
+Tile#getItemLayer di j
+Tile#getObjects di s
+Tile#getPlane di i -1930745275
+Tile#getWall di l
+Tile#getX di h 1088917083
+Tile#getY di e -1328899965
+WallObject#getBackUpRenderable cz m
+WallObject#getFlags cz y 479523099
+WallObject#getId cz j 330487315
+WallObject#getOrientation cz n 414527205
+WallObject#getPlane cz i -1648117661
+WallObject#getRelativeX cz u -1753563609
+WallObject#getRelativeY cz d 599145939
+WallObject#getRenderable cz l
+WallObject#getX cz h -1347902773
+WallObject#getY cz e -314747811
+Widget#getActionType fe c 53350991
+Widget#getActions fe cl
+Widget#getBorderThickness fe at -305226367
+Widget#getBoundsIndex fe ey -1285780345
+Widget#getChildTextureId fe az -950187291
+Widget#getChildren fe el
+Widget#getComponentIndex fe v -2015764141
+Widget#getDisabledMediaId fe by -833435645
+Widget#getDisabledMediaType fe bu -911823375
+Widget#getDynamicValue fe dv
+Widget#getEnabledMediaId fe bx -184139531
+Widget#getEnabledMediaType fe bb -1417400561
+Widget#getHeight fe ad -1132473551
+Widget#isHidden fe an
+Widget#getId fe p -328387153
+Widget#getItemId fe ed 65284263
+Widget#getItemStackSize fe eo 1948463365
+Widget#getLoopCycle fe ex 830422345
+Widget#getName fe cu
+Widget#getParent fe cw
+Widget#getParentId fe aq 1193752131
+Widget#getScrollMax fe ar 1864497251
+Widget#getScrollX fe ag -1094584579
+Widget#getScrollY fe al -2120031175
+Widget#getSelectedAction fe cq
+Widget#getShadowColor fe bc -1321534831
+Widget#getSlotIds fe eq
+Widget#getSlotStackSizes fe ez
+Widget#getSpell fe dl
+Widget#getSpriteId fe az -950187291
+Widget#getText fe bo
+Widget#getTextColor fe aw 1348442751
+Widget#getTextureId fe aj 1785897205
+Widget#getTooltip fe dk
+Widget#getType fe r -517103371
+Widget#getWidth fe as 804335371
+Widget#getAbsoluteX fe a 2083793069
+Widget#getAbsoluteY fe am 337621267
+WidgetNode#getId g i 1657962965

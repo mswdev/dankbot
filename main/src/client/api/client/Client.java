@@ -3,7 +3,6 @@ package client.api.client;
 import client.api.util.Logging;
 import client.reflection.Reflection;
 
-import java.applet.Applet;
 import java.awt.*;
 import java.util.LinkedList;
 import java.util.stream.Stream;
@@ -12,15 +11,6 @@ import java.util.stream.Stream;
  * Created by Spencer on 11/6/2016.
  */
 public class Client {
-
-    public static Applet getInstance() {
-        try {
-            return (Applet) Reflection.loadClass("client").newInstance();
-        } catch (InstantiationException | IllegalAccessException e) {
-            Logging.error(e.getMessage());
-            return null;
-        }
-    }
 
     public static Canvas getCanvas() {
         return (Canvas) Reflection.value("Client#getCanvas");

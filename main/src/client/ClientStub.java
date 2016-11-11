@@ -74,7 +74,7 @@ public class ClientStub extends JPanel implements AppletStub {
 
                         Reflection.setLoader(JAR_FILE);
 
-                        applet = Client.getInstance();
+                        applet = (Applet) Reflection.loadClass("client").newInstance();
                         applet.setBounds(0, 0, Main.getInstance().getWidth(), Main.getInstance().getHeight());
                         applet.setPreferredSize(new Dimension(Main.getInstance().getWidth(), Main.getInstance().getHeight()));
                         applet.setStub(this);
@@ -89,18 +89,18 @@ public class ClientStub extends JPanel implements AppletStub {
                             Thread.sleep(1000);
                         }
 
+                        Logging.debug(applet.getComponents().length + " loaded.");
+
                         wait_for_client = false;
 
+                        Reflection.init();
 
                         final RSCanvas canvas = new RSCanvas(Client.getCanvas());
 
                         Client.setCanvas(canvas);
                         Main.getInstance().setCanvas(canvas);
-
-                        Logging.debug(applet.getComponents().length + " loaded.");
-
                     }
-                } catch (InterruptedException e) {
+                } catch (InterruptedException | InstantiationException | IllegalAccessException e) {
                     Logging.error(e.getMessage());
                 }
             }

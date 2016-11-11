@@ -13,6 +13,10 @@ public class NPCDefinition {
         this.raw = raw;
     }
 
+    public String[] getActions() {
+        return (String[]) Reflection.value("NPCDefinition#getActions", raw);
+    }
+
     public int getId() {
         return (int) Reflection.value("NPCDefinition#getId", raw);
     }
