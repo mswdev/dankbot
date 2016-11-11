@@ -12,15 +12,15 @@ public class FieldHook {
 
     public FieldHook(Field field) {
         this.field = field;
-        this.intMultiplier = 1;
+        this.intMultiplier = 0;
     }
 
     public FieldHook(String multiplier, Field field) {
         this.field = field;
-        if (multiplier.contains("I")) {
+        if (!multiplier.contains("L")) {
             this.intMultiplier = Integer.parseInt(multiplier);
         } else {
-            this.longMultiplier = Long.parseLong(multiplier);
+            this.longMultiplier = Long.parseLong(multiplier.replace("L", ""));
         }
     }
 

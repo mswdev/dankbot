@@ -29,9 +29,9 @@ public class PlayerDefinition {
         return (boolean) Reflection.value("PlayerDefinition#isFemale", raw);
     }
 
-    /*public int getNPCId() {
-        return (int) Reflection.value("PlayerComposite#npcID", raw);
-    }*/
+    public int getNPCId() {
+        return (int) Reflection.value("PlayerDefinition#getNPCId", raw);
+    }
 
     public long getStaticModelId() {
         return (long) Reflection.value("PlayerDefinition#getStaticModelId", raw);

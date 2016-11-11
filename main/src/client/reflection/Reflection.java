@@ -36,9 +36,9 @@ public class Reflection {
                     field.setAccessible(true);
 
                     if (split.length > 3) {
-                        fields.put(split[0], new FieldHook(field));
+                        fields.put(split[0], new FieldHook(split[3], field));
                     } else {
-                        fields.put(split[0], new FieldHook(split[4], field));
+                        fields.put(split[0], new FieldHook(field));
                     }
                 }
             } catch (IOException e) {

@@ -15,7 +15,7 @@ public class RSFrame extends JFrame {
     //private JFXPanel JFX_PANEL;
 
     public RSFrame() {
-        this.setTitle("DankBot v0.1");
+        this.setTitle("DankBot v0.0.2");
         this.getContentPane().setLayout(null);
         this.setSize(new Dimension(Main.getInstance().getWidth() - 29, Main.getInstance().getHeight() - 69));
         this.setPreferredSize(new Dimension(Main.getInstance().getWidth() - 29, Main.getInstance().getHeight() - 69));
