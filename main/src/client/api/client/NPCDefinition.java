@@ -14,11 +14,11 @@ public class NPCDefinition {
     }
 
     public int getId() {
-        return (int) Reflection.value("NPCDefinition#", raw) * -1315819149;
+        return (int) Reflection.value("NPCDefinition#getId", raw);
     }
 
     public String getName() {
-        return (String) Reflection.value("aw", "j", raw);
+        return (String) Reflection.value("NPCDefinition#getName", raw);
     }
 
 }

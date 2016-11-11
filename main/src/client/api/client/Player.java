@@ -15,15 +15,15 @@ public class Player extends Character {
     }
 
     public int getCombatLevel() {
-        return (int) Reflection.value("f", "m", raw) * 91598637;
+        return (int) Reflection.value("Player#getCombatLevel", raw);
     }
 
     public int getSkullIcon() {
-        return (int) Reflection.value("f", "f", raw) * 892851909;
+        return (int) Reflection.value("Player#getSkullIcon", raw);
     }
 
     public PlayerDefinition getDefinition() {
-        return new PlayerDefinition(Reflection.value("f", "q", raw));
+        return new PlayerDefinition(Reflection.value("Player#getDefinition", raw));
     }
 
 }

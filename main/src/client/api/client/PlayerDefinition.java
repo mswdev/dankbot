@@ -14,19 +14,19 @@ public class PlayerDefinition {
     }
 
     public long getAnimatedModelId() {
-        return (long) Reflection.value("gs", "v", raw) * 4771388128559774409L;
+        return (long) Reflection.value("PlayerDefinition#getAnimatedModelId", raw);
     }
 
     public int[] getAppearance() {
-        return (int[]) Reflection.value("gs", "k", raw);
+        return (int[]) Reflection.value("PlayerDefinition#getAppearance", raw);
     }
 
     public int[] getBodyColors() {
-        return (int[]) Reflection.value("gs", "q", raw);
+        return (int[]) Reflection.value("PlayerDefinition#", raw);
     }
 
     public boolean isFemale() {
-        return (boolean) Reflection.value("gs", "f", raw);
+        return (boolean) Reflection.value("PlayerDefinition#", raw);
     }
 
     /*public int getNPCId() {
@@ -34,7 +34,7 @@ public class PlayerDefinition {
     }*/
 
     public long getStaticModelId() {
-        return (long) Reflection.value("gs", "j", raw) * -1658536306076960475L;
+        return (long) Reflection.value("PlayerDefinition#getStaticModelId", raw);
     }
 
     public boolean isValid() {
