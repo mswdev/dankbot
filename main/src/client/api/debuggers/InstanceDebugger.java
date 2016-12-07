@@ -1,7 +1,7 @@
 package client.api.debuggers;
 
 import client.api.oldschool.interfaces.Painting;
-import client.api.util.Logging;
+import client.api.oldschool.interfaces.Validatable;
 
 import java.awt.*;
 import java.lang.reflect.Method;
@@ -16,7 +16,7 @@ public class InstanceDebugger<T> implements Painting {
     T instance;
     Callable<T> callable;
 
-    private final Class[] validReturnTypes = new Class[] {Integer.TYPE, String.class, Boolean.TYPE, Long.TYPE, Double.TYPE, Float.TYPE};
+    private final String[] validReturnTypes = new String[] {int.class.getName(), String.class.getName(), boolean.class.getName(), long.class.getName()};
 
     public InstanceDebugger(Callable<T> callable) {
         try {
@@ -47,17 +47,29 @@ public class InstanceDebugger<T> implements Painting {
 
             if (instance != null) {
                 for (Class<?> clazz = instance.getClass(); !clazz.equals(Object.class); clazz = clazz.getSuperclass()) {
+                    if (Validatable.class.isInstance(clazz)) {
+                        Validatable validation = Validatable.class.cast(clazz);
+                        if (validation != null) {
+                            if (!validation.isValid()) {
+                                continue;
+                            }
+                        }
+                    }
+
                     for (Method method : clazz.getDeclaredMethods()) {
-                        if (Arrays.asList(validReturnTypes).contains(method.getGenericReturnType())) {
+                        if (Arrays.asList(validReturnTypes).contains(method.getReturnType().getName())) {
                             String[] classNames = clazz.getName().split("\\.");
-                            graphics.drawString(classNames[classNames.length - 1] + "." + method.getName().replace("get", "") + ": " + method.invoke(instance).toString(), x, y += 15);
+
+                            Object invoke = method.invoke(instance);
+                            String display = invoke == null ? "Null" : invoke.toString();
+                            graphics.drawString(classNames[classNames.length - 1] + "." + method.getName().replace("get", "") + ": " + display, x, y += 15);
                         }
                     }
                 }
             }
         } catch (Exception e) {
             e.printStackTrace();
-            Logging.error(e.getMessage());
+            e.printStackTrace();
         }
 
         return y;

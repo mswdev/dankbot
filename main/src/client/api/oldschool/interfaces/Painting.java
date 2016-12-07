@@ -7,8 +7,6 @@ import java.awt.*;
  */
 public interface Painting {
 
-
-
     default int onPaint(Graphics graphics, int x, int y) {
         return y;
     }

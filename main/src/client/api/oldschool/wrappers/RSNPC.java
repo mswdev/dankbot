@@ -3,11 +3,12 @@ package client.api.oldschool.wrappers;
 import client.api.client.NPC;
 import client.api.client.NPCDefinition;
 import client.api.oldschool.interfaces.Positionable;
+import client.api.oldschool.interfaces.Validatable;
 
 /**
  * Created by Sphiinx on 11/7/2016.
  */
-public class RSNPC extends RSCharacter implements Positionable {
+public class RSNPC extends RSCharacter implements Positionable, Validatable {
 
     private NPC npc;
 
@@ -31,7 +32,7 @@ public class RSNPC extends RSCharacter implements Positionable {
      * @return The animation ID of the RSNPC.
      */
     public int getAnimation() {
-        return npc.getAnimiation();
+        return npc.getAnimation();
     }
 
     /**
@@ -40,14 +41,14 @@ public class RSNPC extends RSCharacter implements Positionable {
      * @return True if the RSNPC is valid; false otherwise.
      */
     public boolean isValid() {
-        return npc.isValid();
+        return npc != null && npc.isValid();
     }
 
     /**
      * Gets the interacting index of the RSNPC.
      *
      * @return The interacting index of the RSNPC.
-     * */
+     */
     public int getInteractingIndex() {
         return npc.getInteractingIndex();
     }
@@ -56,7 +57,7 @@ public class RSNPC extends RSCharacter implements Positionable {
      * Gets X position of the RSNPC.
      *
      * @return The X position of the RSNPC.
-     * */
+     */
     public int getX() {
         return npc.getX();
     }
@@ -65,7 +66,7 @@ public class RSNPC extends RSCharacter implements Positionable {
      * Gets the Y position of the RSNPC.
      *
      * @return The Y position of the RSNPC.
-     * */
+     */
     public int getY() {
         return npc.getY();
     }

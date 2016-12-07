@@ -25,6 +25,10 @@ public class HashTable {
         return Reflection.value("HashTable#getHead", raw);
     }
 
+    public Object getTail() {
+        return Reflection.value("HashTable#getTail", raw);
+    }
+
     public int getIndex() {
         return (int) Reflection.value("HashTable#getIndex", raw);
     }

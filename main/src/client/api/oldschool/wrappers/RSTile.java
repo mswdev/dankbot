@@ -15,7 +15,10 @@ public class RSTile implements Positionable {
     private TYPES type;
 
     public enum TYPES {
-        NORMAL, LOCAL, WORLD, ANIMATED
+        NORMAL,
+        LOCAL,
+        WORLD,
+        ANIMATED
     }
 
     public RSTile(int x, int y, int plane, TYPES type) {
@@ -47,6 +50,35 @@ public class RSTile implements Positionable {
     }
 
     /**
+     * Gets a String containing the RSTile positions.
+     *
+     * @return A String containing the RSTile positions.
+     */
+    @Override
+    public String toString() {
+        return "[" + x + ", " + y + ", " + plane + "]";
+    }
+
+    /**
+     * Gets the position of the RSTile.
+     *
+     * @return The position of the RSTile.
+     * */
+    @Override
+    public RSTile getPosition() {
+        return this;
+    }
+
+    /**
+     * Gets the RSTile's plane.
+     *
+     * @return The RSTile's plane.
+     */
+    public int getPlane() {
+        return plane;
+    }
+
+    /**
      * Gets the RSTile's X position.
      *
      * @return The RSTile's X position.
@@ -65,24 +97,10 @@ public class RSTile implements Positionable {
     }
 
     /**
-     * Gets the RSTile's plane.
+     * Gets the world tile of the RSTile.
      *
-     * @return The RSTile's plane.
-     */
-    public int getPlane() {
-        return plane;
-    }
-
-    @Override
-    public String toString() {
-        return "[" + x + ", " + y + ", " + plane + "]";
-    }
-
-    @Override
-    public RSTile getPosition() {
-        return this;
-    }
-
+     * @return The world tile of the RSTile.
+     * */
     public RSTile getWorldTile() {
         switch (type) {
             case ANIMATED:
@@ -96,6 +114,11 @@ public class RSTile implements Positionable {
         }
     }
 
+    /**
+     * Gets the animated tile of the RSTile.
+     *
+     * @return The animated tile of the RSTile.
+     * */
     public RSTile getAnimatedTile() {
         switch (type) {
             case ANIMATED:
@@ -109,7 +132,12 @@ public class RSTile implements Positionable {
         }
     }
 
-    public RSTile toLocalTile() {
+    /**
+     * Gets the local tile of the RSTile.
+     *
+     * @return The local tile of the RSTile.
+     * */
+    public RSTile getLocalTile() {
         switch (type) {
             case ANIMATED:
                 return new RSTile(((x - 64) / 128), ((y - 64) / 128), plane, TYPES.LOCAL);
@@ -122,11 +150,13 @@ public class RSTile implements Positionable {
         }
     }
 
+    /**
+     * Gets the type of RSTile.
+     * Types can consist of: "NORMAL, LOCAL, WORLD, ANIMATED"
+     *
+     * @return The type of RSTile.
+     * */
     public TYPES getType() {
         return type;
     }
 }
-
-/**
- * Created by Spencer on 11/8/2016.
- */

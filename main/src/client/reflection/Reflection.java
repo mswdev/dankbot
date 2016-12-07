@@ -22,6 +22,10 @@ public class Reflection {
     private static HashMap<String, FieldHook> fields = new HashMap<>();
     private static HashMap<String, MethodHook> methods = new HashMap<>();
 
+    public static JarClassLoader getLoader() {
+        return loader;
+    }
+
     public static void init() {
         Path reflectionPath = Paths.get("reflection.dat");
         if (Files.exists(reflectionPath)) {

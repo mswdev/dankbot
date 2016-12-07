@@ -1,7 +1,11 @@
 package client.api.util;
 
 import java.io.*;
-import java.net.*;
+import java.net.HttpURLConnection;
+import java.net.URL;
+import java.net.URLConnection;
+import java.net.URLEncoder;
+import java.nio.file.Paths;
 import java.util.Map;
 
 public class Request {
@@ -13,9 +17,10 @@ public class Request {
      *
      * @param url_name       The URL to download the file from.
      * @param save_directory The directory to save the downloaded file.
+     * @param file_name The name to save the file as.
      * @return True if the file was successfully downloaded; false otherwise.
      */
-    public static boolean downloadFile(String url_name, String save_directory) {
+    public static boolean downloadFile(String url_name, String save_directory, String file_name) {
         try {
             final URL URL = new URL(url_name);
             final HttpURLConnection CONNECTION = (HttpURLConnection) URL.openConnection();
@@ -23,7 +28,7 @@ public class Request {
 
             if (RESPONSE == HttpURLConnection.HTTP_OK) {
                 final InputStream INPUT_STREAM = CONNECTION.getInputStream();
-                final FileOutputStream OUTPUT_STREAM = new FileOutputStream(save_directory);
+                final FileOutputStream OUTPUT_STREAM = new FileOutputStream(Paths.get(save_directory, file_name).toFile());
 
                 int bytes_read;
                 final byte[] BUFFER = new byte[BUFFER_SIZE];
@@ -38,7 +43,7 @@ public class Request {
             CONNECTION.disconnect();
             return true;
         } catch (IOException e) {
-            Logging.error(e.toString());
+            e.printStackTrace();
             return false;
         }
     }
@@ -66,7 +71,7 @@ public class Request {
 
             return OUTPUT.toString();
         } catch (IOException e) {
-            Logging.error(e.toString());
+            e.printStackTrace();
         }
 
         return "";
@@ -106,7 +111,7 @@ public class Request {
 
             return true;
         } catch (Exception e) {
-            Logging.error(e.toString());
+            e.printStackTrace();
         }
 
         return false;

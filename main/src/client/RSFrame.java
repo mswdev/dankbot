@@ -15,10 +15,13 @@ public class RSFrame extends JFrame {
     //private JFXPanel JFX_PANEL;
 
     public RSFrame() {
-        this.setTitle("DankBot v0.0.2");
+        this.setTitle("DankBot " + Main.getInstance().getVersion());
         this.getContentPane().setLayout(null);
-        this.setSize(new Dimension(Main.getInstance().getWidth() - 29, Main.getInstance().getHeight() - 69));
-        this.setPreferredSize(new Dimension(Main.getInstance().getWidth() - 29, Main.getInstance().getHeight() - 69));
+
+        this.setSize(new Dimension(Main.getInstance().getWidth() - 29,  Main.getInstance().getHeight() - 69));
+        this.setPreferredSize(new Dimension(Main.getInstance().getWidth() - 29,  Main.getInstance().getHeight() - 69));
+        this.setResizable(false);
+        this.setVisible(true);
 
         stub = new ClientStub();
         stub.setBounds(0, -5, Main.getInstance().getWidth(), Main.getInstance().getHeight());
@@ -30,8 +33,8 @@ public class RSFrame extends JFrame {
 
         this.getContentPane().add(stub);
         //this.getContentPane().add(JFX_PANEL);
-        this.setResizable(false);
-        this.setVisible(true);
+
+
         this.pack();
         this.show();
     }

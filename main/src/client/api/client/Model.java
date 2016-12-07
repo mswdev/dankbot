@@ -6,6 +6,7 @@ import client.api.oldschool.util.Random;
 import client.reflection.Reflection;
 
 import java.awt.*;
+import java.util.Arrays;
 import java.util.LinkedList;
 
 /**
@@ -18,6 +19,9 @@ public class Model {
     private int y;
     private int z;
     private int orientation;
+
+    private int[] xPoints, yPoints, zPoints;
+    private int[] xTriangles, yTriangles, zTriangles;
 
 
     public Model(Object raw) {
@@ -60,23 +64,44 @@ public class Model {
         return (int[]) Reflection.value("Model#getZVertices", raw);
     }
 
+    public void applyChanges(int[] x, int[] y, int[] z, int[] triX, int[] triY, int[] triZ) {
+        this.xPoints = Arrays.copyOf(x, x.length);
+        this.yPoints = Arrays.copyOf(y, y.length);
+        this.zPoints = Arrays.copyOf(z, z.length);
+
+        this.xTriangles = Arrays.copyOf(triX, triX.length);
+        this.yTriangles = Arrays.copyOf(triY, triY.length);
+        this.zTriangles = Arrays.copyOf(triZ, triZ.length);
+
+        if (orientation != 0) {
+            int theta = orientation & 0x3fff;
+            int sin = Projection.SINE[theta];
+            int cos = Projection.COSINE[theta];
+
+            int[] orginal_x;
+            int[] orginal_z;
+
+            orginal_x = Arrays.copyOfRange(xPoints, 0, xPoints.length);
+            orginal_z = Arrays.copyOfRange(zPoints, 0, zPoints.length);
+
+            for (int i = 0; i < xPoints.length; ++i) {
+                xPoints[i] = (orginal_x[i] * cos + orginal_z[i] * sin >> 15) >> 1;
+                zPoints[i] = (orginal_z[i] * cos - orginal_x[i] * sin >> 15) >> 1;
+            }
+        }
+    }
+
     public Polygon[] getTriangles() {
         LinkedList<Polygon> polygons = new LinkedList<>();
 
-        int[] indices1 = getXIndices();
-        int[] indices2 = getYIndices();
-        int[] indices3 = getZIndices();
+        applyChanges(getXVertices(), getYVertices(), getZVertices(), getXIndices(), getYIndices(), getZIndices());
 
-        int[] xPoints = getXVertices();
-        int[] yPoints = getYVertices();
-        int[] zPoints = getZVertices();
-
-        int len = indices1.length;
+        int len = xTriangles.length;
 
         for (int i = 0; i < len; ++i) {
-            Point p1 = Projection.worldToScreen(x + xPoints[indices1[i]], y + zPoints[indices1[i]], -yPoints[indices1[i]] + z);
-            Point p2 = Projection.worldToScreen(x + xPoints[indices2[i]], y + zPoints[indices2[i]], -yPoints[indices2[i]] + z);
-            Point p3 = Projection.worldToScreen(x + xPoints[indices3[i]], y + zPoints[indices3[i]], -yPoints[indices3[i]] + z);
+            Point p1 = Projection.worldToScreen(x + xPoints[xTriangles[i]], y + zPoints[xTriangles[i]], -yPoints[xTriangles[i]] + z);
+            Point p2 = Projection.worldToScreen(x + xPoints[yTriangles[i]], y + zPoints[yTriangles[i]], -yPoints[yTriangles[i]] + z);
+            Point p3 = Projection.worldToScreen(x + xPoints[zTriangles[i]], y + zPoints[zTriangles[i]], -yPoints[zTriangles[i]] + z);
 
             if (p1.x >= 0 && p2.x >= 0 && p3.x >= 0) {
                 polygons.add(new Polygon(new int[]{p1.x, p2.x, p3.x}, new int[]{p1.y, p2.y, p3.y}, 3));

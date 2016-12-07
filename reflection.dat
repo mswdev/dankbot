@@ -111,9 +111,9 @@ Client#getMessage1 ag aw
 Client#getMessage2 ag ah
 Client#getMessageContainer s i
 Client#getMouse ey i
-Client#getNpcCompositeCache ac e
+Client#getNpcDefinitionCache ac e
 Client#getNpcModelCache ac g
-Client#getObjectCompositeCache ai g
+Client#getObjectDefinitionCache ai g
 Client#getObjectModelCache ai d
 Client#getPassword ag ax
 Client#getPlane fx gr -702078775
@@ -186,19 +186,19 @@ HashTable#getCurrent gg g
 HashTable#getHead gg e
 HashTable#getIndex gg n
 HashTable#getSize gg i
-HealthBar#getComposite am e
+HealthBar#getDefinition am e
 HealthBar#getData am g
-HealthBarComposite#getMaxHealth av r -438292841
+HealthBarDefinition#getMaxHealth av r -438292841
 HealthBarData#getCurrentHealth q h 264985437
 ImageProducer#getColorModel ca i
 ImageProducer#getConsumer ca h
 Item#getId ak i 395215635
 Item#getStackSize ak h -1368099579
-ItemComposite#getGroundActions by as
-ItemComposite#getId by s 504704291
-ItemComposite#getMember by am
-ItemComposite#getName by v
-ItemComposite#getWidgetActions by ad
+ItemDefinition#getGroundActions by as
+ItemDefinition#getId by s 504704291
+ItemDefinition#getMember by am
+ItemDefinition#getName by v
+ItemDefinition#getWidgetActions by ad
 ItemLayer#getBottom ck g
 ItemLayer#getFlag ck d -589550963
 ItemLayer#getHeight ck l 142183241
@@ -244,10 +244,11 @@ ObjectDefinition#getActions ai ad
 ObjectDefinition#getName ai s
 Packet#getCipher dh m
 Player#getDefinition e h
-Player#getLevel e d 1996679059
+Player#getCombatLevel e d 1996679059
 Player#getModel e r
 Player#getName e i
 Player#isVisible e z
+Player#getSkullIcon e e -1477055475
 PlayerDefinition#getAnimatedModelId gh u 1364456254774596847L
 PlayerDefinition#getAppearance gh i
 PlayerDefinition#getBodyColors gh h

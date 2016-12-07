@@ -12,56 +12,47 @@ import java.awt.*;
  */
 public class Drawing {
 
-    public static void drawTileOverlay(Graphics graphics, int x, int y, int zOffset, Color outlineColor, float lineThickness) {
-        Point p1 = Projection.worldToScreen(x - 64, y - 64, zOffset);
-        Point p2 = Projection.worldToScreen(x - 64, y + 64, zOffset);
-        Point p3 = Projection.worldToScreen(x + 64, y + 64, zOffset);
-        Point p4 = Projection.worldToScreen(x + 64, y - 64, zOffset);
-
-        Graphics2D g2 = (Graphics2D) graphics;
-        Stroke oldStroke = g2.getStroke();
-
-        g2.setStroke(new BasicStroke(lineThickness));
-        g2.setColor(outlineColor);
-        drawPoints(graphics, p1, p2, p3, p4);
-        g2.setStroke(oldStroke);
-    }
-
+    /**
+     * Draws the tile(s) polygons to the screen.
+     *
+     * @param graphics Graphics.
+     * @param tiles    The tiles to draw.
+     */
     public static void drawTile(Graphics graphics, Positionable... tiles) {
-        Graphics2D g2 = (Graphics2D) graphics;
+        final Graphics2D G2 = (Graphics2D) graphics;
         for (Positionable tile : tiles) {
-            RSTile pos = tile.getPosition();
-            Polygon poly = Projection.getTileBoundsPoly(pos, 0);
-            if (poly != null) {
-                g2.draw(poly);
-            }
+            final RSTile POSITION = tile.getPosition();
+            final Polygon POLYGON = Projection.getTileBoundsPoly(POSITION, 0);
+            if (POLYGON == null)
+                continue;
+
+            G2.draw(POLYGON);
         }
     }
 
-    public static void drawPoints(Graphics graphics, Point... points) {
-        Polygon poly = new Polygon();
-        for (Point point : points) {
-            poly.addPoint(point.x, point.y);
-        }
-
-        graphics.drawPolygon(poly);
-    }
-
+    /**
+     * Draws the tiles(s) polygons to the minimap.
+     *
+     * @param graphics      Graphics.
+     * @param positionables The tiles to draw.
+     */
     public static void drawToMinimap(Graphics graphics, Positionable... positionables) {
-        int angle = Client.getMapScale() + Client.getMapAngle() & 0x7FF;
-        int mapOffset = Client.getMapOffset();
-        int appletWidth = Client.getAppletWidth();
-        boolean resizable = Client.isResizable();
+        final int ANGLE = Client.getMapScale() + Client.getMapAngle() & 0x7FF;
+        final int MAP_OFFSET = Client.getMapOffset();
+        final int APPLET_WIDTH = Client.getAppletWidth();
+        final boolean IS_RESIZABLE = Client.isResizable();
 
-        RSPlayer player = Players.getLocalPlayer();
-        if (player != null) {
-            RSTile playerTile = player.getPosition();
-            if (playerTile != null) {
-                for (Positionable tile : positionables) {
-                    Point tilePoint = Projection.worldToMiniMap(tile.getPosition(), playerTile, angle, mapOffset, appletWidth, resizable);
-                    graphics.drawOval(tilePoint.x, tilePoint.y, 4, 4);
-                }
-            }
+        final RSPlayer PLAYER = Players.getLocalPlayer();
+        if (PLAYER == null)
+            return;
+
+        final RSTile PLAYER_TILE = PLAYER.getPosition();
+        if (PLAYER_TILE == null)
+            return;
+
+        for (Positionable tile : positionables) {
+            final Point TILE_POINT = Projection.worldToMiniMap(tile.getPosition(), PLAYER_TILE, ANGLE, MAP_OFFSET, APPLET_WIDTH, IS_RESIZABLE);
+            graphics.drawOval(TILE_POINT.x, TILE_POINT.y, 4, 4);
         }
     }
 }

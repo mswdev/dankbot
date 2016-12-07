@@ -1,7 +1,6 @@
 package client.api.debuggers;
 
 import client.api.oldschool.interfaces.Painting;
-import client.api.util.Logging;
 
 import java.awt.*;
 import java.lang.reflect.InvocationTargetException;
@@ -30,7 +29,7 @@ public class ClassDebugger implements Painting {
                 }
             }
         } catch (InvocationTargetException | IllegalAccessException e) {
-            Logging.error(e.getMessage());
+            e.printStackTrace();
         }
 
         return y;

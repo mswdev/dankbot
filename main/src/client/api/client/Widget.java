@@ -13,79 +13,156 @@ public class Widget {
         this.raw = raw;
     }
 
-    public int getAbsoluteX() {
-        return (int) Reflection.value("Widget#getAbsoluteX");
+    public Object getActionType() {
+        return Reflection.value("Widget#getActionType", raw);
     }
 
-    public int getAbsoluteY() {
-        return (int) Reflection.value("Widget#getAbsoluteY");
+    public Object getActions() {
+        return Reflection.value("Widget#getActions", raw);
     }
 
-    public int getBoundsIndex() {
-        return (int) Reflection.value("Widget#getBoundsIndex");
+    public Object getBorderThickness() {
+        return Reflection.value("Widget#getBorderThickness", raw);
     }
 
-    public Widget[] getChildren() {
-        return (Widget[]) Reflection.value("Widget#getChildren");
+    public Object getBoundsIndex() {
+        return Reflection.value("Widget#getBoundsIndex", raw);
     }
 
-    public int getHeight() {
-        return (int) Reflection.value("Widget#getHeight");
+    public Object getChildTextureId() {
+        return Reflection.value("Widget#getChildTextureId", raw);
     }
 
-    public boolean isHidden() {
-        return (boolean) Reflection.value("Widget#isHidden");
+    public Object getChildren() {
+        return Reflection.value("Widget#getChildren", raw);
     }
 
-    public int getId() {
-        return (int) Reflection.value("Widget#getId");
+    public Object getComponentIndex() {
+        return Reflection.value("Widget#getComponentIndex", raw);
     }
 
-    public int getItemId() {
-        return (int) Reflection.value("Widget#getItemId");
+    public Object getDisabledMediaId() {
+        return Reflection.value("Widget#getDisabledMediaId", raw);
     }
 
-    public int[] getItemIds() {
-        return (int[]) Reflection.value("Widget#getItemIds");
+    public Object getDisabledMediaType() {
+        return Reflection.value("Widget#getDisabledMediaType", raw);
     }
 
-    public int[] getItemQuantities() {
-        return (int[]) Reflection.value("Widget#getItemQuantities");
+    public Object getDynamicValue() {
+        return Reflection.value("Widget#getDynamicValue", raw);
     }
 
-    public int getItemQuantity() {
-        return (int) Reflection.value("Widget#getItemQuantity");
+    public Object getEnabledMediaId() {
+        return Reflection.value("Widget#getEnabledMediaId", raw);
     }
 
-    public String getName() {
-        return (String) Reflection.value("Widget#getName");
+    public Object getEnabledMediaType() {
+        return Reflection.value("Widget#getEnabledMediaType", raw);
     }
 
-    public Widget getParent() {
-        return (Widget) Reflection.value("Widget#getParent");
+    public Object getHeight() {
+        return Reflection.value("Widget#getHeight", raw);
     }
 
-    public int getParentId() {
-        return (int) Reflection.value("Widget#getParentId");
+    public Object isHidden() {
+        return Reflection.value("Widget#isHidden", raw);
     }
 
-    public int getRelativeX() {
-        return (int) Reflection.value("Widget#getRelativeX");
+    public Object getId() {
+        return Reflection.value("Widget#getId", raw);
     }
 
-    public int getRelativeY() {
-        return (int) Reflection.value("Widget#getRelativeY");
+    public Object getItemId() {
+        return Reflection.value("Widget#getItemId", raw);
     }
 
-    public String getText() {
-        return (String) Reflection.value("Widget#getText");
+    public Object getItemStackSize() {
+        return Reflection.value("Widget#getItemStackSize", raw);
     }
 
-    public int getTextureId() {
-        return (int) Reflection.value("Widget#getTextureId");
+    public Object getLoopCycle() {
+        return Reflection.value("Widget#getLoopCycle", raw);
     }
 
-    public int getWidth() {
-        return (int) Reflection.value("Widget#getWidth");
+    public Object getName() {
+        return Reflection.value("Widget#getName", raw);
     }
+
+    public Object getParent() {
+        return Reflection.value("Widget#getParent", raw);
+    }
+
+    public Object getParentId() {
+        return Reflection.value("Widget#getParentId", raw);
+    }
+
+    public Object getScrollMax() {
+        return Reflection.value("Widget#getScrollMax", raw);
+    }
+
+    public Object getScrollX() {
+        return Reflection.value("Widget#getScrollX", raw);
+    }
+
+    public Object getScrollY() {
+        return Reflection.value("Widget#getScrollY", raw);
+    }
+
+    public Object getSelectedAction() {
+        return Reflection.value("Widget#getSelectedAction", raw);
+    }
+
+    public Object getShadowColor() {
+        return Reflection.value("Widget#getShadowColor", raw);
+    }
+
+    public Object getSlotIds() {
+        return Reflection.value("Widget#getSlotIds", raw);
+    }
+
+    public Object getSlotStackSizes() {
+        return Reflection.value("Widget#getSlotStackSizes", raw);
+    }
+
+    public Object getSpell() {
+        return Reflection.value("Widget#getSpell", raw);
+    }
+
+    public Object getSpriteId() {
+        return Reflection.value("Widget#getSpriteId", raw);
+    }
+
+    public Object getText() {
+        return Reflection.value("Widget#getText", raw);
+    }
+
+    public Object getTextColor() {
+        return Reflection.value("Widget#getTextColor", raw);
+    }
+
+    public Object getTextureId() {
+        return Reflection.value("Widget#getTextureId", raw);
+    }
+
+    public Object getTooltip() {
+        return Reflection.value("Widget#getTooltip", raw);
+    }
+
+    public Object getType() {
+        return Reflection.value("Widget#getType", raw);
+    }
+
+    public Object getWidth() {
+        return Reflection.value("Widget#getWidth", raw);
+    }
+
+    public Object getAbsoluteX() {
+        return Reflection.value("Widget#getAbsoluteX", raw);
+    }
+
+    public Object getAbsoluteY() {
+        return Reflection.value("Widget#getAbsoluteY", raw);
+    }
+
 }

@@ -11,6 +11,16 @@ import java.util.List;
 public class FileManagment {
 
     /**
+     * The directory location of DankBot.
+     * */
+    public static String DIRECTORY_LOCATION = System.getProperty("user.home");
+
+    /**
+     * The directory name of DankBot.
+     * */
+    public static String DIRECTORY_NAME = ".dankbot";
+
+    /**
      * Creates a directory at the specified path with the specified name.
      *
      * @param path The path to create the directory.
@@ -89,6 +99,19 @@ public class FileManagment {
         }
 
         return file_names.stream().toArray(String[]::new);
+    }
+
+    /**
+     * Gets the working directory of the client.
+     *
+     * @return The working directory of the client.
+     */
+    public static File getWorkingDirectory() {
+        final File WORKING_DIRECTORY = getFileInDirectory(DIRECTORY_LOCATION, DIRECTORY_NAME);
+        if (WORKING_DIRECTORY == null)
+            return null;
+
+        return WORKING_DIRECTORY;
     }
 
 }

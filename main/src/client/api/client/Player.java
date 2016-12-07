@@ -26,10 +26,6 @@ public class Player extends Character {
         return (boolean) Reflection.value("Player#isVisible", raw);
     }
 
-    public int getLevel() {
-        return (int) Reflection.value("Player#getLevel", raw);
-    }
-
     public PlayerDefinition getDefinition() {
         return new PlayerDefinition(Reflection.value("Player#getDefinition", raw));
     }

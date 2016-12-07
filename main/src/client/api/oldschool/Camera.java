@@ -8,7 +8,7 @@ import client.api.client.Client;
 public class Camera {
 
     /**
-     * Gets the getCurrent X position of the camera.
+     * Gets the X position of the camera.
      *
      * @return The X position of the camera.
      */
@@ -17,7 +17,7 @@ public class Camera {
     }
 
     /**
-     * Gets the getCurrent Y position of the camera.
+     * Gets the Y position of the camera.
      *
      * @return The Y position of the camera.
      */
@@ -26,7 +26,7 @@ public class Camera {
     }
 
     /**
-     * Gets the getCurrent Z position of the camera.
+     * Gets the Z position of the camera.
      *
      * @return The Z position of the camera.
      */
@@ -35,40 +35,65 @@ public class Camera {
     }
 
     /**
-     * Gets the getCurrent yaw of the camera.
+     * Gets the yaw of the camera.
      *
-     * @return The getCurrent yaw of the camera.
+     * @return The yaw of the camera.
      */
     public static int getCameraYaw() {
         return Client.getCameraYaw();
     }
 
     /**
-     * Gets the getCurrent pitch of the camera.
+     * Gets the pitch of the camera.
      *
-     * @return The getCurrent pitch of the camera.
+     * @return The pitch of the camera.
      */
     public static int getCameraAngle() {
-        int pitch = (int) ((Client.getCameraPitch() - 128) / 2.83);
-        return pitch < 0 ? 0 : pitch;
+        final int PITCH = (int) ((Client.getCameraPitch() - 128) / 2.83);
+        return PITCH < 0 ? 0 : PITCH;
     }
 
+    /**
+     * Gets the pitch of the camera.
+     *
+     * @return The pitch of the camera.
+     */
     public static int getCameraPitch() {
         return Client.getCameraPitch();
     }
 
+    /**
+     * Gets the rotation of the camera.
+     *
+     * @return The rotation of the camera.
+     */
     public static int getCameraRotation() {
         return Math.abs((int) (getCameraYaw() / 5.68) - 360);
     }
 
+    /**
+     * Gets the view port width.
+     *
+     * @return The width of the view port.
+     */
     public static int getViewPortWidth() {
         return Client.getViewPortWidth();
     }
 
+    /**
+     * Gets the view port height.
+     *
+     * @return The height of the view port.
+     */
     public static int getViewPortHeight() {
         return Client.getViewPortHeight();
     }
 
+    /**
+     * Gets the view port scale.
+     *
+     * @return The scale of the view port.
+     */
     public static int getViewPortScale() {
         return Client.getViewPortScale();
     }

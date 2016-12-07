@@ -1,18 +1,23 @@
 package client;
 
 import client.api.client.Client;
+import client.api.util.FileManagment;
 import client.api.util.Logging;
 import client.api.util.Request;
+import client.api.util.enums.DirectoryName;
+import client.api.util.enums.FileName;
 import client.reflection.Reflection;
+import client.updater.Updater;
 
 import javax.swing.*;
 import java.applet.Applet;
 import java.applet.AppletContext;
 import java.applet.AppletStub;
 import java.awt.*;
+import java.io.File;
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.nio.file.Files;
+import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.HashMap;
 import java.util.regex.Matcher;
@@ -23,7 +28,6 @@ import java.util.regex.Pattern;
  */
 public class ClientStub extends JPanel implements AppletStub {
 
-    private static final String JAR_FILE = "gamepack.jar";
     private static final String JAV_CONFIG_REGEX = "\\'jagex\\-jav:\\/\\/(.*?)'";
 
     private HashMap<String, String> params = new HashMap<>();
@@ -31,12 +35,9 @@ public class ClientStub extends JPanel implements AppletStub {
     private boolean wait_for_client = true;
     private Applet applet;
 
-    public ClientStub() {
-        setSize(new Dimension(Main.getInstance().getWidth(), Main.getInstance().getHeight()));
-
-        final String GAME_PAGE = Request.requestUrl("http://oldschool.runescape.com/game?world=370");
+    private boolean loadParamaters(final String HTML) {
         final Pattern PATTERN = Pattern.compile(JAV_CONFIG_REGEX);
-        final Matcher MATCHER = PATTERN.matcher(GAME_PAGE);
+        final Matcher MATCHER = PATTERN.matcher(HTML);
 
         if (MATCHER.find()) {
             final String JAV_CONFIG = MATCHER.group(1);
@@ -60,19 +61,46 @@ public class ClientStub extends JPanel implements AppletStub {
                 }
             }
 
-            if (params.containsKey("codebase") && params.containsKey("initial_jar")) {
+            return true;
+        }
+
+        return false;
+    }
+
+    private boolean downloadGamepack(final String GAMEPACK_URL) {
+        final File WORKING_DIRECTORY = FileManagment.getWorkingDirectory();
+        if (WORKING_DIRECTORY == null)
+            return false;
+
+        final Path GAME_PACK_PATH = Paths.get(WORKING_DIRECTORY.getAbsolutePath(), DirectoryName.DEPENDANCIES.getDirectoryName());
+        final File GAME_PACK = FileManagment.getFileInDirectory(GAME_PACK_PATH.toString(), FileName.GAMEPACK.getFileName());
+        if (GAME_PACK == null)
+            return Request.downloadFile(GAMEPACK_URL, GAME_PACK_PATH.toString(), FileName.GAMEPACK.getFileName());
+
+        return true;
+    }
+
+    public ClientStub() {
+        new Thread(() -> {
+            if (ClientDirectory.needsDirectory())
+                ClientDirectory.createDirectory();
+
+            if (ClientDirectory.createSubDirectories())
+                ClientDirectory.createSubDirectories();
+
+            setSize(new Dimension(Main.getInstance().getWidth(), Main.getInstance().getHeight()));
+
+            final String GAME_PAGE = Request.requestUrl("http://oldschool.runescape.com/game?world=370");
+
+            if (loadParamaters(GAME_PAGE)) {
                 final String GAMEPACK_URL = params.get("codebase") + params.get("initial_jar");
-                Logging.debug("GAMEPACK_URL = " + GAMEPACK_URL);
-
-                try {
-                    if (!Files.exists(Paths.get(JAR_FILE))) {
-                        if (!Request.downloadFile(GAMEPACK_URL, JAR_FILE))
+                if (downloadGamepack(GAMEPACK_URL)) {
+                    try {
+                        final File WORKING_DIRECTORY = FileManagment.getWorkingDirectory();
+                        if (WORKING_DIRECTORY == null)
                             return;
-                    }
 
-                    if (Files.exists(Paths.get(JAR_FILE))) {
-
-                        Reflection.setLoader(JAR_FILE);
+                        Reflection.setLoader(Paths.get(WORKING_DIRECTORY.getAbsolutePath(), DirectoryName.DEPENDANCIES.getDirectoryName(), FileName.GAMEPACK.getFileName()).toString());
 
                         applet = (Applet) Reflection.loadClass("client").newInstance();
                         applet.setBounds(0, 0, Main.getInstance().getWidth(), Main.getInstance().getHeight());
@@ -99,15 +127,14 @@ public class ClientStub extends JPanel implements AppletStub {
 
                         Client.setCanvas(canvas);
                         Main.getInstance().setCanvas(canvas);
+
+                    } catch (IllegalAccessException | InterruptedException | InstantiationException e) {
+                        e.printStackTrace();
                     }
-                } catch (InterruptedException | InstantiationException | IllegalAccessException e) {
-                    Logging.error(e.getMessage());
                 }
             }
-        }
+        }).start();
     }
-
-
 
     @Override
     public boolean isActive() {
@@ -155,7 +182,8 @@ public class ClientStub extends JPanel implements AppletStub {
             graphics2D.fillRect(0, 0, getWidth(), getHeight());
 
             graphics.setColor(Color.GREEN.darker());
-            graphics2D.drawString("DankBot is loading!", 285, 480);
+            graphics.setFont(new Font("Verdana", 0, 30));
+            graphics2D.drawString("DankBot is loading!", 240, 250);
 
             repaint(600);
         }

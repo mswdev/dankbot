@@ -63,6 +63,10 @@ public class JarClassLoader extends ClassLoader {
         return null;
     }
 
+    public HashMap<String, byte[]> getEntries() {
+        return entries;
+    }
+
     private void load() {
         try {
             JarInputStream jis = new JarInputStream(JAR_URL.openStream());

@@ -2,11 +2,12 @@ package client.api.oldschool.wrappers;
 
 import client.api.client.*;
 import client.api.oldschool.interfaces.Positionable;
+import client.api.oldschool.interfaces.Validatable;
 
 /**
  * Created by Sphiinx on 11/6/2016.
  */
-public class RSPlayer extends RSCharacter implements Positionable {
+public class RSPlayer extends RSCharacter implements Positionable, Validatable {
 
     private Player player;
     private RSPlayerDefinition definition;
@@ -21,56 +22,85 @@ public class RSPlayer extends RSCharacter implements Positionable {
      * Gets the RSPlayer's combat level.
      *
      * @return The RSPlayer's combat level.
-     * */
+     */
     public int getCombatLevel() {
+        if (!isValid())
+            return -1;
+
         return player.getCombatLevel();
     }
 
     /**
      * Gets the skull state of the RSPlayer.
      *
-     * @return 0 if the player is skulled; -1 otherwise.
-     * */
+     * @return 0 if the RSPlayer is skulled; -1 otherwise.
+     */
     public int getSkullIcon() {
+        if (!isValid())
+            return -1;
+
         return player.getSkullIcon();
     }
 
-
-    //APIDOC
+    /**
+     * Checks if the RSPlayer is valid.
+     *
+     * @return True if the RSPlayer is valid; false otherwise.
+     */
     public boolean isValid() {
         return player != null && player.isValid();
     }
 
+    /**
+     * Gets the orientation of the RSPlayer.
+     *
+     * @return The orientation of the RSPlayer.
+     */
     public int getOrientation() {
+        if (!isValid())
+            return -1;
+
         return player.getOrientation();
     }
 
+    /**
+     * Gets the RSPlayerDefinition of the RSPlayer.
+     *
+     * @return The RSPlayerDefinition.
+     */
     public RSPlayerDefinition getDefinition() {
+        if (!isValid())
+            return null;
+
         return definition = definition != null && definition.isValid() ? definition : new RSPlayerDefinition(player.getDefinition());
     }
 
+    /**
+     * Gets the model of the RSPlayer.
+     *
+     * @return The model of the RSPlayer.
+     */
     public Model getModel() {
-        /*if (model != null && model.isValid()) {
-            RSTile animatedTile = getPosition().getAnimatedTile();
-            model.updatePosition(animatedTile.getX(), animatedTile.getY(), animatedTile.getPlane(), getOrientation());
-            return model;
-        }*/
+        if (!isValid())
+            return null;
 
-        RSPlayerDefinition def = getDefinition();
-        if (!def.isValid()) return null;
+        final RSPlayerDefinition DEFINITION = getDefinition();
+        if (!DEFINITION.isValid())
+            return null;
 
-        Cache cache = Client.getPlayerModelCache();
-        HashTable table = cache.getHashTable();
+        final Cache CACHE = Client.getPlayerModelCache();
+        final HashTable TABLE = CACHE.getHashTable();
+        final long MODEL_ID = DEFINITION.getAnimatedModelId();
+
         Object node;
+        while ((node = TABLE.getNext()) != null) {
+            final Node NODE = new Node(node);
+            if (NODE.getId() != MODEL_ID)
+                continue;
 
-        long modelId = def.getAnimatedModelId();
-        while ((node = table.getNext()) != null) {
-            Node n = new Node(node);
-            if (n.getId() == modelId) {
-                RSTile animatedTile = getPosition().getAnimatedTile();
-                model = new Model(node, getOrientation(), animatedTile.getX(), animatedTile.getY(), animatedTile.getPlane());
-                break;
-            }
+            final RSTile ANIMATED_TILE = getPosition().getAnimatedTile();
+            model = new Model(node, getOrientation(), ANIMATED_TILE.getX(), ANIMATED_TILE.getY(), ANIMATED_TILE.getPlane());
+            break;
         }
 
         return model;

@@ -1,11 +1,14 @@
 package client;
 
+import client.api.client.Client;
 import client.api.debuggers.ClassDebugger;
 import client.api.debuggers.InstanceDebugger;
-import client.api.debuggers.PositionDebugger;
+import client.api.debuggers.PlayerDebugger;
 import client.api.oldschool.Camera;
 import client.api.oldschool.Game;
+import client.api.oldschool.Players;
 import client.api.oldschool.interfaces.Painting;
+import client.api.oldschool.wrappers.RSPlayer;
 
 import java.awt.*;
 import java.awt.image.BufferedImage;
@@ -33,10 +36,10 @@ public class RSCanvas extends java.awt.Canvas {
         this.canvas = canvas;
         canvas.setSize(new Dimension(Main.getInstance().getWidth(), Main.getInstance().getHeight()));
 
-        Collections.addAll(paints, new PositionDebugger(), new ClassDebugger(new Class[] {Game.class, Camera.class})/*, new InstanceDebugger<>(() -> {
+        Collections.addAll(paints, new PlayerDebugger(), new ClassDebugger(new Class[] {Game.class, Camera.class}), new InstanceDebugger<>(() -> {
             RSPlayer player = Client.getGameState() == 30 ? Players.getLocalPlayer() : null;
             return player != null && player.isValid() ? player : null;
-        })*/);
+        }));
     }
 
     @Override

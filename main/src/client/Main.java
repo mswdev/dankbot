@@ -11,6 +11,7 @@ public class Main {
     private RSFrame BOT_FRAME;
     private final int CANVAS_WIDTH = 800;
     private final int CANVAS_HEIGHT = 600;
+    private final String BOT_CLIENT_VERSION = "v0.0.2";
     private Canvas canvas;
     private static Main instance;
 
@@ -40,6 +41,10 @@ public class Main {
 
     public int getHeight() {
         return CANVAS_HEIGHT;
+    }
+
+    public String getVersion() {
+        return BOT_CLIENT_VERSION;
     }
 
     public Dimension getDimensions() {

@@ -43,6 +43,11 @@ public class Game {
         return Client.getPlane();
     }
 
+    /**
+     * Checks if the RSPlayer is logged in.
+     *
+     * @return True if the RSPlayer is logged in; false otherwise.
+     * */
     public static boolean isLoggedIn() {
         return getGameState() == 30;
     }

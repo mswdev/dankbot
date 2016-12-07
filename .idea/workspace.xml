@@ -2,22 +2,421 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7264b5f-268d-4284-85d7-e96d4af58797" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/ClientDirectory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/UpdaterMain.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/api/client/AnimatedObject.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/api/client/BoundaryObject.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/api/client/ClanMember.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/api/client/CollisionMap.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/api/client/Friend.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/api/client/GameObject.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/api/client/GrandExchangeItem.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/api/client/HealthBar.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/api/client/HealthBarData.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/api/client/HealthBarDefinition.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/api/client/Item.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/api/client/ItemDefinition.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/api/client/ItemLayer.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/api/client/ItemNode.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/api/client/MessageChannel.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/api/client/MessageNode.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/api/client/ObjectDefinition.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/api/client/Projectile.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/api/client/Region.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/api/client/SettingsClass.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/api/client/Tile.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/api/client/WallObject.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/api/client/WidgetNode.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/api/client/World.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/api/debuggers/PlayerDebugger.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/api/oldschool/interfaces/Validatable.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/api/util/Timer.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/api/util/enums/DirectoryName.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/api/util/enums/FileName.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/updater/ClassIdentifier.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/updater/DummyParameterFinder.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/updater/FieldDescription.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/updater/FieldSigniture.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/updater/MethodDescription.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/updater/MultiplierFinder.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/updater/Updater.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/updater/asm/ClassData.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/updater/asm/FieldData.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/updater/asm/FlowFixer/FlowFixer.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/updater/asm/FlowFixer/InsnBlock.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/updater/asm/InsnSearcher.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/updater/asm/InstructionFinder.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/updater/asm/MethodData.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/updater/asm/RegexInstructionMatcher$Constraint.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/updater/asm/RegexInstructionMatcher.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/updater/asm/Wildcard.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/updater/asm/assembly/Assembly.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/updater/asm/assembly/Mask.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/updater/asm/controlflow/ArithmeticDeob/ArithmeticDeob.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/updater/asm/controlflow/ArithmeticDeob/InsnWrapper.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/updater/asm/controlflow/Generic/DeobFrame.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/updater/asm/controlflow/Generic/DumpJar.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/updater/asm/controlflow/RedundantMethod/MethodRemoval.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/updater/asm/controlflow/RedundantMethod/MethodWrapper.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/updater/asm/controlflow/RemoveDeadCode.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/updater/asm/deob/OpaquePredicateRemovalTransform.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/updater/asm/deob/Transform.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/updater/identifiers/ByteBuffer.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/updater/identifiers/Cache.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/updater/identifiers/CacheNode.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/updater/identifiers/Character.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/updater/identifiers/Client.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/updater/identifiers/HashTable.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/updater/identifiers/ISAACCipher.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/updater/identifiers/IdentityKit.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/updater/identifiers/Node.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/updater/identifiers/Packet.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/updater/identifiers/Queue.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/updater/identifiers/Rasterizer.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/updater/identifiers/Rasterizer2D.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/updater/identifiers/Rasterizer3D.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/updater/identifiers/ReferenceTable.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/updater/identifiers/RenderableNode.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/client/updater/identifiers/World.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/AnnotationVisitor.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/AnnotationWriter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/Attribute.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/ByteVector.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/ClassReader.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/ClassVisitor.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/ClassWriter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/Context.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/Edge.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/FieldVisitor.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/FieldWriter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/Frame.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/Handle.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/Handler.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/Item.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/Label.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/MethodVisitor.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/MethodWriter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/Opcodes.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/Type.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/commons/AdviceAdapter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/commons/AnalyzerAdapter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/commons/CodeSizeEvaluator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/commons/GeneratorAdapter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/commons/InstructionAdapter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/commons/JSRInlinerAdapter$Instantiation.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/commons/JSRInlinerAdapter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/commons/LocalVariablesSorter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/commons/Method.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/commons/Remapper.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/commons/RemappingAnnotationAdapter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/commons/RemappingClassAdapter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/commons/RemappingFieldAdapter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/commons/RemappingMethodAdapter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/commons/RemappingSignatureAdapter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/commons/SerialVersionUIDAdder$Item.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/commons/SerialVersionUIDAdder.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/commons/SimpleRemapper.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/commons/StaticInitMerger.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/commons/TableSwitchGenerator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/commons/TryCatchBlockSorter$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/commons/TryCatchBlockSorter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/signature/SignatureReader.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/signature/SignatureVisitor.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/signature/SignatureWriter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/tree/AbstractInsnNode.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/tree/AnnotationNode.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/tree/ClassNode.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/tree/FieldInsnNode.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/tree/FieldNode.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/tree/FrameNode.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/tree/IincInsnNode.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/tree/InnerClassNode.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/tree/InsnList$InsnListIterator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/tree/InsnList.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/tree/InsnNode.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/tree/IntInsnNode.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/tree/InvokeDynamicInsnNode.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/tree/JumpInsnNode.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/tree/LabelNode.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/tree/LdcInsnNode.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/tree/LineNumberNode.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/tree/LocalVariableNode.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/tree/LookupSwitchInsnNode.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/tree/MethodInsnNode.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/tree/MethodNode$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/tree/MethodNode.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/tree/MultiANewArrayInsnNode.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/tree/TableSwitchInsnNode.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/tree/TryCatchBlockNode.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/tree/TypeInsnNode.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/tree/VarInsnNode.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/tree/analysis/Analyzer.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/tree/analysis/AnalyzerException.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/tree/analysis/BasicInterpreter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/tree/analysis/BasicValue.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/tree/analysis/BasicVerifier.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/tree/analysis/Frame.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/tree/analysis/Interpreter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/tree/analysis/SimpleVerifier.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/tree/analysis/SmallSet.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/tree/analysis/SourceInterpreter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/tree/analysis/SourceValue.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/tree/analysis/Subroutine.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/tree/analysis/Value.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/util/ASMifiable.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/util/ASMifier.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/pf.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/client/ClientDirectory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/client/UpdaterMain.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/client/api/client/AnimatedObject.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/client/api/client/BoundaryObject.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/client/api/client/ClanMember.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/client/api/client/CollisionMap.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/client/api/client/Friend.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/client/api/client/GameObject.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/client/api/client/GrandExchangeItem.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/client/api/client/HealthBar.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/client/api/client/HealthBarData.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/client/api/client/HealthBarDefinition.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/client/api/client/Item.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/client/api/client/ItemDefinition.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/client/api/client/ItemLayer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/client/api/client/ItemNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/client/api/client/MessageChannel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/client/api/client/MessageNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/client/api/client/ObjectDefinition.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/client/api/client/Projectile.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/client/api/client/Region.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/client/api/client/Tile.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/client/api/client/WallObject.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/client/api/debuggers/PlayerDebugger.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/client/api/oldschool/interfaces/Validatable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/client/api/util/Timer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/client/api/util/enums/DirectoryName.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/client/api/util/enums/FileName.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/client/updater/ClassIdentifier.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/client/updater/DummyParameterFinder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/client/updater/FieldDescription.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/client/updater/FieldSigniture.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/client/updater/MethodDescription.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/client/updater/MultiplierFinder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/client/updater/Updater.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/client/updater/asm/ClassData.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/client/updater/asm/FieldData.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/client/updater/asm/FlowFixer/FlowFixer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/client/updater/asm/FlowFixer/InsnBlock.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/client/updater/asm/InsnSearcher.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/client/updater/asm/InstructionFinder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/client/updater/asm/MethodData.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/client/updater/asm/RegexInstructionMatcher.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/client/updater/asm/Wildcard.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/client/updater/asm/assembly/Assembly.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/client/updater/asm/assembly/Mask.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/client/updater/asm/controlflow/ArithmeticDeob/ArithmeticDeob.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/client/updater/asm/controlflow/ArithmeticDeob/InsnWrapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/client/updater/asm/controlflow/Generic/DeobFrame.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/client/updater/asm/controlflow/Generic/DumpJar.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/client/updater/asm/controlflow/RedundantMethod/MethodRemoval.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/client/updater/asm/controlflow/RedundantMethod/MethodWrapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/client/updater/asm/controlflow/RemoveDeadCode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/client/updater/asm/deob/OpaquePredicateRemovalTransform.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/client/updater/asm/deob/Transform.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/client/updater/identifiers/ByteBuffer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/client/updater/identifiers/Cache.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/client/updater/identifiers/CacheNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/client/updater/identifiers/Character.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/client/updater/identifiers/Client.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/client/updater/identifiers/HashTable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/client/updater/identifiers/ISAACCipher.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/client/updater/identifiers/IdentityKit.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/client/updater/identifiers/Node.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/client/updater/identifiers/Packet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/client/updater/identifiers/Queue.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/client/updater/identifiers/Rasterizer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/client/updater/identifiers/Rasterizer2D.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/client/updater/identifiers/Rasterizer3D.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/client/updater/identifiers/ReferenceTable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/client/updater/identifiers/RenderableNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/client/updater/identifiers/World.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/AnnotationVisitor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/AnnotationWriter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/Attribute.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/ByteVector.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/ClassReader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/ClassVisitor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/ClassWriter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/Context.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/Edge.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/FieldVisitor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/FieldWriter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/Frame.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/Handle.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/Handler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/Item.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/Label.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/MethodVisitor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/MethodWriter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/Opcodes.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/Type.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/attrs/package.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/commons/AdviceAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/commons/AnalyzerAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/commons/CodeSizeEvaluator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/commons/GeneratorAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/commons/InstructionAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/commons/JSRInlinerAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/commons/LocalVariablesSorter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/commons/Method.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/commons/Remapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/commons/RemappingAnnotationAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/commons/RemappingClassAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/commons/RemappingFieldAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/commons/RemappingMethodAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/commons/RemappingSignatureAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/commons/SerialVersionUIDAdder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/commons/SimpleRemapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/commons/StaticInitMerger.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/commons/TableSwitchGenerator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/commons/TryCatchBlockSorter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/commons/package.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/package.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/signature/SignatureReader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/signature/SignatureVisitor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/signature/SignatureWriter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/signature/package.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/tree/AbstractInsnNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/tree/AnnotationNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/tree/ClassNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/tree/FieldInsnNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/tree/FieldNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/tree/FrameNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/tree/IincInsnNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/tree/InnerClassNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/tree/InsnList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/tree/InsnNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/tree/IntInsnNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/tree/InvokeDynamicInsnNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/tree/JumpInsnNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/tree/LabelNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/tree/LdcInsnNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/tree/LineNumberNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/tree/LocalVariableNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/tree/LookupSwitchInsnNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/tree/MethodInsnNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/tree/MethodNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/tree/MultiANewArrayInsnNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/tree/TableSwitchInsnNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/tree/TryCatchBlockNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/tree/TypeInsnNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/tree/VarInsnNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/tree/analysis/Analyzer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/tree/analysis/AnalyzerException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/tree/analysis/BasicInterpreter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/tree/analysis/BasicValue.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/tree/analysis/BasicVerifier.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/tree/analysis/Frame.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/tree/analysis/Interpreter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/tree/analysis/SimpleVerifier.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/tree/analysis/SmallSet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/tree/analysis/SourceInterpreter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/tree/analysis/SourceValue.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/tree/analysis/Subroutine.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/tree/analysis/Value.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/tree/analysis/package.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/tree/package.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/util/ASMifiable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/util/ASMifier.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/util/CheckAnnotationAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/util/CheckClassAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/util/CheckFieldAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/util/CheckMethodAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/util/CheckSignatureAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/util/Modifier.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/util/Printer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/util/Textifiable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/util/Textifier.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/util/TraceAnnotationVisitor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/util/TraceClassVisitor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/util/TraceFieldVisitor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/util/TraceMethodVisitor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/util/TraceSignatureVisitor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/util/package.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/xml/ASMContentHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/xml/Processor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/xml/SAXAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/xml/SAXAnnotationAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/xml/SAXClassAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/xml/SAXCodeAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/xml/SAXFieldAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/xml/asm-xml.dtd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/src/org/objectweb/asm/xml/package.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/attrs/package.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/commons/package.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/package.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/signature/package.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/tree/analysis/package.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/org/objectweb/asm/tree/package.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gamepack.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/main/src/client/api/debuggers/PositionDebugger.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/client/api/debuggers/PositionDebugger.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/client/ClientStub.class" afterPath="$PROJECT_DIR$/output/client/ClientStub.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/client/JarClassLoader.class" afterPath="$PROJECT_DIR$/output/client/JarClassLoader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/client/Main.class" afterPath="$PROJECT_DIR$/output/client/Main.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/client/RSCanvas.class" afterPath="$PROJECT_DIR$/output/client/RSCanvas.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/client/reflection/FieldHook.class" afterPath="$PROJECT_DIR$/output/client/reflection/FieldHook.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/client/RSFrame.class" afterPath="$PROJECT_DIR$/output/client/RSFrame.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/client/api/client/Character.class" afterPath="$PROJECT_DIR$/output/client/api/client/Character.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/client/api/client/Client.class" afterPath="$PROJECT_DIR$/output/client/api/client/Client.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/client/api/client/Model.class" afterPath="$PROJECT_DIR$/output/client/api/client/Model.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/client/api/client/Player.class" afterPath="$PROJECT_DIR$/output/client/api/client/Player.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/client/api/client/Widget.class" afterPath="$PROJECT_DIR$/output/client/api/client/Widget.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/client/api/debuggers/ClassDebugger.class" afterPath="$PROJECT_DIR$/output/client/api/debuggers/ClassDebugger.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/client/api/debuggers/InstanceDebugger.class" afterPath="$PROJECT_DIR$/output/client/api/debuggers/InstanceDebugger.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/client/api/oldschool/Camera.class" afterPath="$PROJECT_DIR$/output/client/api/oldschool/Camera.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/client/api/oldschool/Drawing.class" afterPath="$PROJECT_DIR$/output/client/api/oldschool/Drawing.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/client/api/oldschool/Game.class" afterPath="$PROJECT_DIR$/output/client/api/oldschool/Game.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/client/api/oldschool/Projection.class" afterPath="$PROJECT_DIR$/output/client/api/oldschool/Projection.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/client/api/oldschool/interfaces/Painting.class" afterPath="$PROJECT_DIR$/output/client/api/oldschool/interfaces/Painting.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/client/api/oldschool/wrappers/RSCharacter.class" afterPath="$PROJECT_DIR$/output/client/api/oldschool/wrappers/RSCharacter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/client/api/oldschool/wrappers/RSNPC.class" afterPath="$PROJECT_DIR$/output/client/api/oldschool/wrappers/RSNPC.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/client/api/oldschool/wrappers/RSPlayer.class" afterPath="$PROJECT_DIR$/output/client/api/oldschool/wrappers/RSPlayer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/client/api/oldschool/wrappers/RSPlayerDefinition.class" afterPath="$PROJECT_DIR$/output/client/api/oldschool/wrappers/RSPlayerDefinition.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/client/api/oldschool/wrappers/RSTile$1.class" afterPath="$PROJECT_DIR$/output/client/api/oldschool/wrappers/RSTile$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/client/api/oldschool/wrappers/RSTile$TYPES.class" afterPath="$PROJECT_DIR$/output/client/api/oldschool/wrappers/RSTile$TYPES.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/client/api/oldschool/wrappers/RSTile.class" afterPath="$PROJECT_DIR$/output/client/api/oldschool/wrappers/RSTile.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/client/api/util/FileManagment.class" afterPath="$PROJECT_DIR$/output/client/api/util/FileManagment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/client/api/util/Request.class" afterPath="$PROJECT_DIR$/output/client/api/util/Request.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/client/reflection/Reflection.class" afterPath="$PROJECT_DIR$/output/client/reflection/Reflection.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/BotClient.iml" afterPath="$PROJECT_DIR$/.idea/BotClient.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/main.iml" afterPath="$PROJECT_DIR$/main/main.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/src/client/ClientStub.java" afterPath="$PROJECT_DIR$/main/src/client/ClientStub.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/src/client/JarClassLoader.java" afterPath="$PROJECT_DIR$/main/src/client/JarClassLoader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/src/client/Main.java" afterPath="$PROJECT_DIR$/main/src/client/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/src/client/RSCanvas.java" afterPath="$PROJECT_DIR$/main/src/client/RSCanvas.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/src/client/RSFrame.java" afterPath="$PROJECT_DIR$/main/src/client/RSFrame.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/src/client/api/client/Character.java" afterPath="$PROJECT_DIR$/main/src/client/api/client/Character.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/src/client/api/client/Client.java" afterPath="$PROJECT_DIR$/main/src/client/api/client/Client.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/src/client/api/client/NPCDefinition.java" afterPath="$PROJECT_DIR$/main/src/client/api/client/NPCDefinition.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/src/client/api/client/HashTable.java" afterPath="$PROJECT_DIR$/main/src/client/api/client/HashTable.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/src/client/api/client/Model.java" afterPath="$PROJECT_DIR$/main/src/client/api/client/Model.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/src/client/api/client/Player.java" afterPath="$PROJECT_DIR$/main/src/client/api/client/Player.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/src/client/api/client/PlayerDefinition.java" afterPath="$PROJECT_DIR$/main/src/client/api/client/PlayerDefinition.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/src/client/api/client/Widget.java" afterPath="$PROJECT_DIR$/main/src/client/api/client/Widget.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/src/client/reflection/FieldHook.java" afterPath="$PROJECT_DIR$/main/src/client/reflection/FieldHook.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/src/client/api/debuggers/ClassDebugger.java" afterPath="$PROJECT_DIR$/main/src/client/api/debuggers/ClassDebugger.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/src/client/api/debuggers/InstanceDebugger.java" afterPath="$PROJECT_DIR$/main/src/client/api/debuggers/InstanceDebugger.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/src/client/api/oldschool/Camera.java" afterPath="$PROJECT_DIR$/main/src/client/api/oldschool/Camera.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/src/client/api/oldschool/Drawing.java" afterPath="$PROJECT_DIR$/main/src/client/api/oldschool/Drawing.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/src/client/api/oldschool/Game.java" afterPath="$PROJECT_DIR$/main/src/client/api/oldschool/Game.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/src/client/api/oldschool/Projection.java" afterPath="$PROJECT_DIR$/main/src/client/api/oldschool/Projection.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/src/client/api/oldschool/interfaces/Painting.java" afterPath="$PROJECT_DIR$/main/src/client/api/oldschool/interfaces/Painting.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/src/client/api/oldschool/util/Random.java" afterPath="$PROJECT_DIR$/main/src/client/api/oldschool/util/Random.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/src/client/api/oldschool/wrappers/RSCharacter.java" afterPath="$PROJECT_DIR$/main/src/client/api/oldschool/wrappers/RSCharacter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/src/client/api/oldschool/wrappers/RSNPC.java" afterPath="$PROJECT_DIR$/main/src/client/api/oldschool/wrappers/RSNPC.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/src/client/api/oldschool/wrappers/RSPlayer.java" afterPath="$PROJECT_DIR$/main/src/client/api/oldschool/wrappers/RSPlayer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/src/client/api/oldschool/wrappers/RSPlayerDefinition.java" afterPath="$PROJECT_DIR$/main/src/client/api/oldschool/wrappers/RSPlayerDefinition.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/src/client/api/oldschool/wrappers/RSTile.java" afterPath="$PROJECT_DIR$/main/src/client/api/oldschool/wrappers/RSTile.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/src/client/api/util/FileManagment.java" afterPath="$PROJECT_DIR$/main/src/client/api/util/FileManagment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/src/client/api/util/Request.java" afterPath="$PROJECT_DIR$/main/src/client/api/util/Request.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/src/client/reflection/Reflection.java" afterPath="$PROJECT_DIR$/main/src/client/reflection/Reflection.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reflection.dat" afterPath="$PROJECT_DIR$/reflection.dat" />
     </list>
     <ignored path="BotClient.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,32 +436,12 @@
     <favorites_list name="BotClient" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/src/client/Main.java">
+    <leaf>
+      <file leaf-file-name="UpdaterMain.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main/src/client/UpdaterMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="6" column="32" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RSFrame.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main/src/client/RSFrame.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClientStub.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/src/client/ClientStub.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+            <state relative-caret-position="147">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -75,6 +454,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -101,57 +481,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/main/src/NewClass.java" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/main/src/game" />
-        <option value="$PROJECT_DIR$/main/src/Internet.java" />
-        <option value="$PROJECT_DIR$/main/src/Request.java" />
-        <option value="$PROJECT_DIR$/main/src/api/Request.java" />
-        <option value="$PROJECT_DIR$/main/src/api/Logging.java" />
-        <option value="$PROJECT_DIR$/main/src/api/FileManagment.java" />
-        <option value="$PROJECT_DIR$/main/src/Canvas.java" />
-        <option value="$PROJECT_DIR$/main/src/ClientStubFX.java" />
-        <option value="$PROJECT_DIR$/main/src/JarClassLoader.java" />
-        <option value="$PROJECT_DIR$/main/src/RSFrame.java" />
-        <option value="$PROJECT_DIR$/main/src/RSCanvas.java" />
-        <option value="$PROJECT_DIR$/main/src/client_api/Temp.java" />
-        <option value="$PROJECT_DIR$/main/src/api_client/Temp.java" />
-        <option value="$PROJECT_DIR$/main/src/api/util/Request.java" />
-        <option value="$PROJECT_DIR$/main/src/reflection/Reflection.java" />
-        <option value="$PROJECT_DIR$/main/src/Main.java" />
         <option value="$PROJECT_DIR$/main/src/ClientStub.java" />
-        <option value="$PROJECT_DIR$/main/src/client/Main.java" />
         <option value="$PROJECT_DIR$/main/src/client/reflection/Reflection.java" />
         <option value="$PROJECT_DIR$/main/src/client/api/oldschool/Client.java" />
         <option value="$PROJECT_DIR$/main/src/client/api/oldschool/Painting.java" />
-        <option value="$PROJECT_DIR$/main/src/client/api/oldschool/Camera.java" />
         <option value="$PROJECT_DIR$/main/src/client/api/debuggers/ClientDebugger.java" />
-        <option value="$PROJECT_DIR$/main/src/client/api/debuggers/ClassDebugger.java" />
-        <option value="$PROJECT_DIR$/main/src/client/api/client/Client.java" />
         <option value="$PROJECT_DIR$/main/src/client/api/oldschool/Player.java" />
         <option value="$PROJECT_DIR$/main/src/client/api/debuggers/StaticClassDebugger.java" />
         <option value="$PROJECT_DIR$/main/src/client/api/debuggers/PlayerDebugger.java" />
-        <option value="$PROJECT_DIR$/main/src/client/api/debuggers/InstanceDebugger.java" />
         <option value="$PROJECT_DIR$/main/src/client/api/oldschool/interfaces/Positionable.java" />
         <option value="$PROJECT_DIR$/main/src/client/api/oldschool/RSPlayer.java" />
         <option value="$PROJECT_DIR$/main/src/client/api/oldschool/RSTile.java" />
         <option value="$PROJECT_DIR$/main/src/client/api/oldschool/RSCharacter.java" />
         <option value="$PROJECT_DIR$/main/src/client/api/client/Character.java" />
-        <option value="$PROJECT_DIR$/main/src/client/api/oldschool/wrappers/RSTile.java" />
         <option value="$PROJECT_DIR$/main/src/client/api/oldschool/Players.java" />
-        <option value="$PROJECT_DIR$/main/src/client/api/oldschool/wrappers/RSPlayer.java" />
         <option value="$PROJECT_DIR$/main/src/client/api/client/Player.java" />
         <option value="$PROJECT_DIR$/main/src/client/api/client/NPCDefinition.java" />
         <option value="$PROJECT_DIR$/main/src/client/api/oldschool/wrappers/RSNPCDefinition.java" />
         <option value="$PROJECT_DIR$/main/src/client/api/client/Widget.java" />
-        <option value="$PROJECT_DIR$/main/src/client/api/oldschool/Projection.java" />
         <option value="$PROJECT_DIR$/main/src/client/api/oldschool/NPC.java" />
-        <option value="$PROJECT_DIR$/main/src/client/api/oldschool/wrappers/RSCharacter.java" />
-        <option value="$PROJECT_DIR$/main/src/client/api/oldschool/wrappers/RSNPC.java" />
         <option value="$PROJECT_DIR$/main/src/client/api/oldschool/NPCs.java" />
-        <option value="$PROJECT_DIR$/main/src/client/api/oldschool/Game.java" />
         <option value="$PROJECT_DIR$/main/src/client/RSCanvas.java" />
         <option value="$PROJECT_DIR$/main/src/client/RSFrame.java" />
+        <option value="$PROJECT_DIR$/main/src/client/api/debuggers/InstanceDebugger.java" />
+        <option value="$PROJECT_DIR$/main/src/client/api/oldschool/Drawing.java" />
+        <option value="$PROJECT_DIR$/main/src/client/api/oldschool/Camera.java" />
+        <option value="$PROJECT_DIR$/main/src/client/api/oldschool/wrappers/RSCharacter.java" />
+        <option value="$PROJECT_DIR$/main/src/client/api/oldschool/wrappers/RSNPC.java" />
+        <option value="$PROJECT_DIR$/main/src/client/api/oldschool/wrappers/RSPlayer.java" />
+        <option value="$PROJECT_DIR$/main/src/client/api/oldschool/wrappers/RSPlayerDefinition.java" />
+        <option value="$PROJECT_DIR$/main/src/client/api/oldschool/wrappers/RSTile.java" />
+        <option value="$PROJECT_DIR$/main/src/client/api/oldschool/enums/RSTileType.java" />
+        <option value="$PROJECT_DIR$/main/src/client/api/oldschool/Game.java" />
+        <option value="$PROJECT_DIR$/main/src/client/api/oldschool/Projection.java" />
+        <option value="$PROJECT_DIR$/main/src/client/api/oldschool/util/Random.java" />
+        <option value="$PROJECT_DIR$/main/src/client/api/oldschool/interfaces/Painting.java" />
+        <option value="$PROJECT_DIR$/main/src/client/api/util/enums/Directory.java" />
+        <option value="$PROJECT_DIR$/main/src/client/DirectoryManagment.java" />
+        <option value="$PROJECT_DIR$/main/src/client/ClientDirectoryManagment.java" />
+        <option value="$PROJECT_DIR$/main/src/client/api/client/Client.java" />
+        <option value="$PROJECT_DIR$/main/src/client/api/debuggers/ClassDebugger.java" />
+        <option value="$PROJECT_DIR$/main/src/client/api/util/Request.java" />
+        <option value="$PROJECT_DIR$/main/src/client/ClientDirectory.java" />
+        <option value="$PROJECT_DIR$/main/src/client/api/util/enums/DirectoryName.java" />
+        <option value="$PROJECT_DIR$/main/src/client/api/util/enums/FileName.java" />
+        <option value="$PROJECT_DIR$/main/src/client/api/util/FileManagment.java" />
+        <option value="$PROJECT_DIR$/main/src/client/api/client/Friend.java" />
+        <option value="$PROJECT_DIR$/main/src/client/api/client/BoundaryObject.java" />
+        <option value="$PROJECT_DIR$/main/src/client/api/client/Item.java" />
+        <option value="$PROJECT_DIR$/main/src/client/api/client/ItemNode.java" />
+        <option value="$PROJECT_DIR$/main/src/client/ClientStub.java" />
+        <option value="$PROJECT_DIR$/main/src/client/Main.java" />
       </list>
     </option>
   </component>
@@ -181,7 +561,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -199,7 +579,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -249,10 +630,6 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -269,40 +646,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BotClient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BotClient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -312,8 +655,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -801,34 +1143,39 @@
       <workItem from="1478556398068" duration="5625000" />
       <workItem from="1478578188027" duration="4000" />
       <workItem from="1478828347617" duration="2253000" />
-      <workItem from="1478851945845" duration="155000" />
+      <workItem from="1478851945845" duration="1473000" />
+      <workItem from="1478898045657" duration="75000" />
+      <workItem from="1478899142989" duration="134000" />
+      <workItem from="1478899289584" duration="2450000" />
+      <workItem from="1478915772782" duration="12464000" />
+      <workItem from="1479083676261" duration="232000" />
+      <workItem from="1479270561658" duration="35000" />
+      <workItem from="1481069001515" duration="27000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49334000" />
+    <option name="totallyTimeSpent" value="66069000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34561214" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3434453" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Floobits" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32502708" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Floobits" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32286024" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -838,7 +1185,9 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -863,95 +1212,11 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/main/src/ProxyAuth.java" />
-    <entry file="file://$PROJECT_DIR$/main/src/game" />
-    <entry file="file://$PROJECT_DIR$/main/src/Canvas.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/javafx-src.zip!/javafx/embed/swing/JFXPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-244">
-          <caret line="226" column="11" selection-start-line="226" selection-start-column="11" selection-end-line="226" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/ClientStubFX.java" />
-    <entry file="file://$PROJECT_DIR$/main/main.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/api_client/Temp.java" />
-    <entry file="file://$PROJECT_DIR$/main/src/api/util/Request.java" />
-    <entry file="file://$PROJECT_DIR$/main/src/api/util/Logging.java" />
-    <entry file="file://$PROJECT_DIR$/main/src/api/util/FileManagment.java" />
-    <entry file="file://$PROJECT_DIR$/main/src/RSCanvas.java" />
-    <entry file="file://$PROJECT_DIR$/main/src/RSFrame.java" />
-    <entry file="file://$PROJECT_DIR$/main/src/reflection/Reflection.java" />
-    <entry file="file://$PROJECT_DIR$/main/src/Main.java" />
-    <entry file="file://$PROJECT_DIR$/main/src/ClientStub.java" />
-    <entry file="file://$PROJECT_DIR$/main/src/JarClassLoader.java" />
-    <entry file="file://$PROJECT_DIR$/main/src/client/api/oldschool/Client.java" />
-    <entry file="file://$PROJECT_DIR$/main/src/client/reflection/Reflection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/client/JarClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1449">
-          <caret line="82" column="33" selection-start-line="82" selection-start-column="33" selection-end-line="82" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/client/api/oldschool/Camera.java" />
-    <entry file="file://$PROJECT_DIR$/main/src/client/api/debuggers/ClientDebugger.java" />
-    <entry file="file://$PROJECT_DIR$/main/src/client/api/oldschool/interfaces/Positionable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/client/api/debuggers/PlayerDebugger.java" />
-    <entry file="file://$PROJECT_DIR$/main/src/client/api/oldschool/RSTile.java" />
-    <entry file="file://$PROJECT_DIR$/main/src/client/api/oldschool/RSPlayer.java" />
-    <entry file="file://$PROJECT_DIR$/main/src/client/api/oldschool/RSCharacter.java" />
-    <entry file="file://$PROJECT_DIR$/main/src/client/api/client/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/src/client/api/oldschool/Painting.java" />
-    <entry file="file://$PROJECT_DIR$/main/src/client/api/debuggers/InstanceDebugger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/client/api/debuggers/ClassDebugger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/src/client/api/client/Player.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
-          <folding>
-            <element signature="e#291#292#0" expanded="false" />
-            <element signature="e#366#367#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -959,7 +1224,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -967,7 +1231,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -975,73 +1238,126 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
           <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
-          <folding>
-            <element signature="e#258#259#0" expanded="true" />
-            <element signature="e#334#335#0" expanded="true" />
-            <element signature="e#457#458#0" expanded="true" />
-            <element signature="e#530#531#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/client/api/oldschool/wrappers/RSPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="37" column="23" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/client/api/oldschool/wrappers/RSTile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/client/api/debuggers/PositionDebugger.java">
+    <entry file="file://$PROJECT_DIR$/main/src/client/api/debuggers/PlayerDebugger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
           <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/client/RSCanvas.java">
+    <entry file="file://$PROJECT_DIR$/main/src/client/api/client/Cache.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
-          <folding />
+        <state relative-caret-position="189">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/client/api/oldschool/Players.java">
+    <entry file="file://$PROJECT_DIR$/main/src/client/api/debuggers/InstanceDebugger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+        <state relative-caret-position="402">
+          <caret line="67" column="19" selection-start-line="67" selection-start-column="19" selection-end-line="67" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/src/client/api/oldschool/Drawing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="739">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/src/client/api/oldschool/Camera.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="59" column="7" selection-start-line="59" selection-start-column="7" selection-end-line="59" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/src/client/api/oldschool/wrappers/RSCharacter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/client/api/client/Widget.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="55" column="22" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
-          <folding>
-            <element signature="e#947#948#0" expanded="true" />
-            <element signature="e#1012#1013#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="336">
+          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/src/client/api/oldschool/wrappers/RSNPC.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="231">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/src/client/api/oldschool/wrappers/RSNPCDefinition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/src/client/api/oldschool/wrappers/RSPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="44" column="4" selection-start-line="44" selection-start-column="4" selection-end-line="48" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/src/client/api/oldschool/wrappers/RSPlayerDefinition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/src/client/api/oldschool/enums/RSTileType.java" />
+    <entry file="file://$PROJECT_DIR$/main/src/client/api/oldschool/wrappers/RSTile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/src/client/api/oldschool/util/Random.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/src/client/api/oldschool/interfaces/Validatable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/src/client/api/oldschool/interfaces/Positionable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/src/client/api/oldschool/interfaces/Painting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/src/client/api/oldschool/Projection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/src/client/api/oldschool/Players.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -1052,62 +1368,208 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/client/api/oldschool/wrappers/RSNPCDefinition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/src/client/api/oldschool/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state relative-caret-position="445">
+          <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/client/api/oldschool/Drawing.java">
+    <entry file="file://$PROJECT_DIR$/main/src/client/JarClassLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/client/api/oldschool/Projection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/client/api/client/Cache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/client/ClientStub.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/client/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="6" column="32" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="32" />
+        <state relative-caret-position="853">
+          <caret line="82" column="33" selection-start-line="82" selection-start-column="33" selection-end-line="82" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/src/client/RSFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state relative-caret-position="483">
+          <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/src/client/api/client/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/src/client/api/util/FileManagment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/src/client/api/debuggers/ClassDebugger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/src/client/api/util/Request.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/src/client/reflection/Reflection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="68" column="23" selection-start-line="68" selection-start-column="23" selection-end-line="68" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/src/client/api/util/Logging.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/src/client/ClientDirectory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-366">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/src/client/api/util/enums/DirectoryName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/src/client/api/util/enums/FileName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/src/client/api/client/Widget.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="55" column="22" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/src/client/api/client/PlayerDefinition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reflection.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="339" column="26" selection-start-line="339" selection-start-column="26" selection-end-line="339" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/src/client/api/client/AnimatedObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/src/client/ClientStub.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="79" column="5" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
+          <folding>
+            <element signature="method#getCodeBase#0;class#ClientStub#0" expanded="false" />
+            <element signature="method#appletResize#0;class#ClientStub#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/src/client/api/client/ItemNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/src/client/api/client/BoundaryObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/src/client/api/client/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/src/client/api/client/Friend.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/src/client/updater/identifiers/World.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2068">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/src/client/updater/identifiers/Rasterizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/src/client/updater/identifiers/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/src/client/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding>
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/src/client/RSCanvas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/src/client/UpdaterMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding />
         </state>
       </provider>
